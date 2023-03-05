@@ -1,0 +1,58 @@
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+#icon_menu {
+  display: block;
+  max-width:90px;
+  max-height:30px;
+  width: auto;
+  height: auto;
+}
+
+#icon_research_meta {
+  display: block;
+  max-width:45px;
+  max-height:40px;
+  width: auto;
+  height: auto;
+}
+
+#icon_research_img {
+  display: block;
+  max-width:200px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+  padding: 5px 25px;
+}
+
+#icon_talks {
+  display: inherit;
+  max-width:30px;
+  max-height:18px;
+  width: auto;
+  height: auto;
+  padding: 0px 5px;
+}
+
+.button {
+  background-color: none; /* Blue background */
+  border: black; /* Remove borders */
+  border-radius: 10px;
+  color: black; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: none; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  height: 50px;
+  width: 125px;
+}
+
+.button:hover {
+  background-color: #CCCCFF;
+}
+
+table.colright td:nth-child(1) {
+  text-align: right;
+}
