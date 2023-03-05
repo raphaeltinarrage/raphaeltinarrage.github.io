@@ -43,7 +43,7 @@
   border-radius: 10px;
   color: black; /* White text */
   padding: 12px 16px; /* Some padding */
-  font-size: none; /* Set a font size */
+  font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
   height: 50px;
   width: 125px;
