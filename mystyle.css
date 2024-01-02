@@ -1,52 +1,135 @@
+/* Main */
+
 .content {
   max-width: 960px;
   margin: auto;
 }
 
-#icon_menu {
-  display: block;
-  max-width:90px;
-  max-height:30px;
-  width: auto;
-  height: auto;
+h2 {
+  clear: both;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  background-color: #F0F0F0;
+  margin: 2em 0px 1em 0px;
+  padding: 2px 0px 2px 1em;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  border-style: solid;
 }
 
-#icon_research_meta {
+.table_main {
+  width: 920px;
+  margin-left: 20px;
+  margin-right:  20px;
+  border-spacing: 0px 0px;
+  table-layout:fixed;
+}
+
+.table_talks {
+  width: 920px;
+  margin-left: 20px;
+  margin-right:  20px;
+  border-spacing: 0px 0px;
+  table-layout:fixed;
+}
+
+.table_links {
+  max-width: 180px;
+  border-spacing: 12px 0; 
+}
+
+.table_list {
+  margin-left: 20px;
+  border-spacing: 10px 5px;
+}
+
+/* Research */
+
+.cell_research_img {
+  width: 200px;
+  margin: 0 0 0 0;
+}
+
+.cell_research_text {
+  width: 520px;
+  text-align: justify;
+  margin: 0 0 0 0;
+}
+
+.cell_research_links {
+  width: 180px;
+  margin: 0 0 0 0;
+}
+
+.icon_research_img {
+  display: block;
+  max-width: 180px;
+  max-height: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.icon_research_meta {
   display: block;
   max-width:45px;
   max-height:40px;
-  width: auto;
-  height: auto;
 }
 
-#icon_research_img {
-  display: block;
-  max-width:200px;
-  max-height:100px;
-  width: auto;
-  height: auto;
-  padding: 5px 25px;
+/* Talks */
+
+.cell_talks_date {
+  width: 100px;
+  height: 25px;
+  margin: 0 0 0 0;
+  text-align: right;
 }
 
-#icon_talks {
-  display: inherit;
+.cell_talks_links {
+  width: 80px;
+  height: 25px;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.cell_talks_text {
+  width: 700px; 
+  height: 25px;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+.icon_talks {
   max-width:30px;
-  max-height:18px;
-  width: auto;
-  height: auto;
+  max-height:25px;
   padding: 0px 5px;
 }
 
+/* Links to scholar */
+
+.icon_menu {
+  max-width:100px;
+  max-height:35px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+/* Navigation menu */
+
 .button {
-  background-color: none; /* Blue background */
-  border: black; /* Remove borders */
+  background-color: #F0F0F0; 
+  border: black; 
   border-radius: 10px;
-  color: black; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  color: black; 
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
   height: 50px;
-  width: 125px;
+  width: 116px;
 }
 
 .button:hover {
