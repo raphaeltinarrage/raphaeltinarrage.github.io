@@ -1,52 +1,41 @@
-<html><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8N57S98PXV"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-8N57S98PXV');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-8N57S98PXV');
     </script>
-    
-    <link rel = "icon" href = "img/icon_favicon.png" type = "image/x-icon">
 
+    <link rel="icon" href="img/icon_favicon.png" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>
-			Raphaël Tinarrage
-		</title>
-		<link rel="stylesheet" href="./files/EMAp/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    
-        <style>
-            table{
-                border-collapse:collapse;
-                margin:20px;
-                padding:0;
-                width:100%;
-                }
-        </style>
-	</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Raphaël Tinarrage</title>
+</head>
 
-	<body>       
-		<div align="center">
-		<h2> 
-            Recovering the homology of immersed manifolds
-        </h2>
-        <script type="text/javascript">
+<body>
+    <div class="content" style="width: 700px; margin:auto;">
+
+        <h1>Recovering the homology of immersed manifolds</h1>
+        <script>
             function getRandomInt(min, max) {
-            min = Math.ceil(min);
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
             }
-            document.write('<img width="256" height="93" src="files/ImmersedManifolds/lemniscate' + getRandomInt(1, 7) + '.png">') 
+            document.write('<img style="display: block; margin:auto; width:256px; height:93px" src="files/ImmersedManifolds/lemniscate' + getRandomInt(1, 7) + '.png">') 
         </script>
-    </div>	
+        <hr>
 
-    <hr>
+        Paper available on <a href="https://arxiv.org/abs/1912.03033" target="_blank">arxiv</a>.
+        A Jupyter Notebook can be downloaded <a href="files/ImmersedManifolds/Demo.ipynb" target="_blank">here</a> and
+        consulted online <a href="https://github.com/raphaeltinarrage/ImmersedManifolds/blob/master/Demo.ipynb"
+            target="_blank">here</a>.
+    </div>
+</body>
 
-       Paper available on <a href="https://arxiv.org/abs/1912.03033" target="_blank">arxiv</a>.<br>
-
-       A Jupyter Notebook can be downloaded <a href="files/ImmersedManifolds/Demo.ipynb" target="_blank">here</a> and consulted online <a href="https://github.com/raphaeltinarrage/ImmersedManifolds/blob/master/Demo.ipynb" target="_blank">here</a>.
-    
+</html>
