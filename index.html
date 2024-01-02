@@ -1,544 +1,960 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8N57S98PXV"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-8N57S98PXV');
+    </script>
 
-    gtag('config', 'G-8N57S98PXV');
-    </script>    
-    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    
-    <link rel="stylesheet" href="mystyle.css">
-    
     <title>Raphaël Tinarrage</title>
-    
-    <link rel = "icon" href = "img/icon_favicon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" href="img/icon_favicon.png" type="image/x-icon">
 </head>
-    
-<body><div class="content" style="width: 960px">
-    
-    <div align="center"> 
-<!--        <h1> Raphaël Tinarrage </h1>-->
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 30px 0px;"><tr>
-            <td><h1> Raphaël Tinarrage </h1>
-            <p> raphael.tinarrage[at]fgv.br </p>
-            <p> FGV EMAp, Praia de Botafogo, nº190 
-                <br> 5º Andar - Sala 514 
-                <br> Rio de Janeiro, Brasil</p>
-            </td>
-            <td><img src="img/pic.jpg" border=0 height=200 title=""></td>
-        </tr></table>           
+
+<body>
+    <div class="content" style="width: 960px;">
+
+        <!-- First informations -->
+        <div style="margin: auto; width: 700px; text-align: justify;">
+        
+            <!-- Main title -->
+            <table>
+                <tr>
+                    <td style="width: 320px;">  
+                        <h1> Raphaël Tinarrage </h1>
+                        <p> raphael.tinarrage[at]fgv.br </p>
+                        <p> Escola de Matemática Aplicada (FGV EMAp) 
+                            <br> Praia de Botafogo, nº190, 5º Andar, Sala 514
+                            <br> Botafogo, Rio de Janeiro, Brasil
+                        </p>
+                    </td>
+                    <td style="width: 380px;"> 
+                        <img src="img/profile_pic.jpg" width=380 style="border: none;" title="" alt="profile picture">
+                    </td>
+                </tr>
+            </table>
+            <br>
+        
+            <!-- Links to other websites -->
+            <table style="margin:auto;border-spacing: 35px 0px;">
+                <tr>
+                    <td>
+                        <a href="https://github.com/raphaeltinarrage" target="_Blank"><img src="img/icon_github.png"
+                            class="icon_menu" alt="link to github" /></a>
+                    </td>
+                    <td>
+                                <a href="https://www.youtube.com/channel/UCE5OLOmBR7vDfYpL9p9LAPw" target="_Blank"><img
+                                src="img/icon_youtube.png" class="icon_menu" alt="link to youtube" /></a>
+                    </td>
+                    <td>
+                        <a href="https://arxiv.org/search/?searchtype=author&query=Tinarrage%2C+R" target="_Blank"><img
+                                src="img/icon_arxiv.png" class="icon_menu" alt="link to arxiv" /></a>
+                    </td>
+                    <td>
+                        <a href="https://scholar.google.com/citations?user=bkIa2aYAAAAJ&hl=en" target="_Blank"><img
+                                src="img/icon_scholar.png" class="icon_menu" alt="link to google scholar" /></a></td>
+                    <td>
+                        <a href="https://hal.archives-ouvertes.fr/search/index/?q=raphael-tinarrage&submit" target="_Blank"><img
+                                src="img/icon_hal.png" class="icon_menu" alt="link to HAL" /></a>
+                    </td>
+                    <td>
+                        <a href="https://orcid.org/0000-0002-1404-1095" target="_Blank"><img src="img/icon_orcid.png"
+                                class="icon_menu" alt="link to orcid" /></a>
+                    </td>
+                    <td>
+                        <a href="http://www.theses.fr/s191301" target="_Blank"><img src="img/icon_theses.jpg" class="icon_menu"
+                                alt="link to theses.fr" /></a>
+                    </td>
+                </tr>
+            </table>
+        
+            <!-- Professional information -->
+            <p> Postdoc at <a href="https://emap.fgv.br/en" target="_blank">FGV EMAp</a>, advised by <a
+                    href="https://emap.fgv.br/professores/cesar-camacho" target="_blank">César Camacho</a>.
+            
+                <br> Former PhD Student at <a href="https://www.imo.universite-paris-saclay.fr/en/" target="_blank">Laboratoire
+                de Mathématiques d'Orsay</a> and <a href="https://www.inria.fr/en/datashape" target="_blank">Inria Datashape</a>,
+                advised by <a href="http://geometrica.saclay.inria.fr/team/Fred.Chazal/" target="_blank">Frédéric Chazal</a> and
+                <a href="https://geometrica.saclay.inria.fr/team/Marc.Glisse/" target="_blank">Marc Glisse</a>.
+            
+                <br> Here is my <a href="files/Tinarrage_Vitae.pdf">curriculum vitae</a> and a <a
+                    href="files/Tinarrage_Publications.pdf">list of publications</a>.
+            </p>
+
+            <!-- Navigation menu -->
+            <table style="margin:auto;border-spacing: 0px 0;">
+                <tr>
+                    <td><button class="button" onclick="location.href='#research'">Research</button></td>
+                    <td><button class="button" onclick="location.href='#code'">Code</button></td>
+                    <td><button class="button" onclick="location.href='#teaching'">Teaching</button></td>
+                    <td><button class="button" onclick="location.href='#students'">Students</button></td>
+                    <td><button class="button" onclick="location.href='#talks'">Talks</button></td>
+                    <td><button class="button" onclick="location.href='#misc'">Misc</button></td>
+                </tr>
+            </table>
+        </div>
+
+
+        <!-- Research -->
+        <h2 id="research"> Research </h2>
+
+        <p style="text-align: justify;">My work revolves around Topological Data Analysis (TDA), in its theoretical developments and practical
+            applications.
+
+            <br><br><b>Topological inference with TDA:</b> Stability and consistency of Persistent Homology, estimation of
+            topological invariants
+            other than homology groups, varifold formalism, and detection of Lie group symmetries.
+            I am interested in obtaining stability bounds that involve the Wasserstein distance, more suited to deal with datasets
+            containing noise or anomalous points.
+            
+            <br><br><b>Combinatorial topology:</b> Triangulation of topological spaces, equivalence between simplicial maps,
+            and Lusternik–Schnirelmann category.
+            In practice, computational topology suffers from the fact that homotopical invariants quickly become intractable (e.g.,
+            it is undecidable whether a given simplicial complex of dimension 4 or more is contractible), hence
+            alternatives must be found.
+            
+            <br><br><b>Concrete applications:</b>
+            Medical Image Analysis, Visualization of large graphs, Natural Language Processing (with a focus on Brazilian law),
+            Statistics on Phylogenetic Trees Spaces, and Equivariant Neural Networks.
+        
+        </p>
+
+        <!-- List of publications - Main -->
+        <table class=table_main>
+
+            <!-- Train-free Segmentations  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href=""><img src="img/icon_segmentation.png" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>Train-Free Segmentation in MRI with Cubical Persistent Homology</b>
+                        (with Anton François), preprint, January 2024.
+                        Segmentation in MRI scans using TDA and without deep learning.
+                        Our method is based on the persistent homology of the image and the localization of representative cycles.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <!--
+                            <td><a href="" target="_Blank"><img src="img/icon_document.jpg"
+                                    class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            -->
+                            <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklAxtaMrQB5UCbobxRsiw8sE" target="_Blank"><img
+                                        src="img/icon_youtube.png" class="icon_research_meta" alt="link to youtube" /></a></td>
+                            <td><a href="https://github.com/antonfrancois/gliomaSegmentation_TDA" target="_Blank"><img src="img/icon_jupyter.png"
+                                        class="icon_research_meta" alt="link to jupyter notebook" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- LieDetect  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/2309.03086"><img src="img/icon_LieDetect.gif" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>LieDetect: Detection of representation orbits of compact Lie groups from point clouds</b>
+                        (with Henrique Ennes), preprint, July 2023.
+                        An algorithm for the estimation of linear orbits of compact Lie groups from finite samples,
+                        allowing to retrieve the precise representation as a sum of irreps.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/2309.03086" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklBQlwrGyAnisJ-lGiLFeTVw"
+                                    target="_Blank"><img src="img/icon_youtube.png" class="icon_research_meta"
+                                        alt="link to youtube" /></a></td>
+                            <td><a href="https://github.com/HLovisiEnnes/LieDetect" target="_Blank"><img src="img/icon_jupyter.png"
+                                        class="icon_research_meta" alt="link to jupyter notebook" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- TDANetVis: Suggesting temporal resolutions for graph visualization using zigzag persistent homology  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/2304.03828"><img src="img/icon_TDANetVis.png"
+                        class="icon_research_img" alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>TDANetVis: Suggesting temporal resolutions for graph visualization using zigzag persistent
+                        homology</b> (with Jean Ponciano, Claudio Linhares, Agma Traina, Jorge Poco), preprint, April 2023.
+                        An interactive visualization tool for large dynamic graphs, including parameter-suggestion.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/2304.03828" target="_Blank"><img
+                                        src="img/icon_document.jpg" class="icon_research_meta" alt="link to arxiv"/></a></td>
+                            <td><a href="https://github.com/raphaeltinarrage/TDANetVis" target="_Blank"><img
+                                        src="img/icon_jupyter.png" class="icon_research_meta" alt="link to jupyter notebook"/></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Simplicial approximation to CW complexes in practice  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/2112.07573"><img src="img/icon_CWcomplexes.gif" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>Simplicial approximation to CW complexes in practice,</b> preprint, December 2021.
+                        We study an algorithm which converts CW complexes into simplicial complexes.
+                        We obtain a potential triangulation of the Grassmannian of planes in dimension 4.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/2112.07573" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            <td><a href="https://www.youtube.com/watch?v=PaKkzcMZC70" target="_Blank"><img
+                                        src="img/icon_youtube.png" class="icon_research_meta" alt="link to youtube" /></a></td>
+                            <td><a href="https://github.com/raphaeltinarrage/SimplicialApproximationCW/blob/main/Demo.ipynb"
+                                    target="_Blank"><img src="img/icon_jupyter.png" class="icon_research_meta"
+                                        alt="link to jupyter notebook" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Computing persistent Stiefel-Whitney classes of line bundles  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/2005.12543"><img src="img/icon_PSFclasses.png" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>Computing persistent Stiefel-Whitney classes of line bundles</b>, in <a
+                            href="https://link.springer.com/article/10.1007/s41468-021-00080-4" target="_blank">Journal of Applied
+                            and Computational Topology 2021</a>.
+                        We define and study characteristic classes within the framework of persistent homology. We
+                        implement an algorithm which estimates the orientability of datasets.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/2005.12543" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            <td><a href="https://www.youtube.com/watch?v=xnQdGRvWenw" target="_Blank"><img
+                                        src="img/icon_youtube.png" class="icon_research_meta" alt="link to youtube" /></a></td>
+                            <td><a href="https://github.com/raphaeltinarrage/PersistentCharacteristicClasses/blob/master/Demo.ipynb"
+                                    target="_Blank"><img src="img/icon_jupyter.png" class="icon_research_meta"
+                                        alt="link to jupyter notebook" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Recovering the homology of immersed manifolds  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/1912.03033"><img src="img/icon_ImmersedManifolds.gif" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>Recovering the homology of immersed manifolds,</b> in <a
+                            href="https://link.springer.com/article/10.1007/s00454-022-00409-5" target="_blank"> Discrete &
+                            Computational Geometry 2023</a>.
+                        We adapt persistent homology to the case of point clouds sampled on a self-intersecting
+                        manifold. We deduce a self-intersection-aware clustering algorithm.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/1912.03033" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklDlIFg1djM5XprlL8Ys0hW4"
+                                    target="_Blank"><img src="img/icon_youtube.png" class="icon_research_meta"
+                                        alt="link to youtube" /></a></td>
+                            <td><a href="https://github.com/raphaeltinarrage/ImmersedManifolds/blob/master/Demo.ipynb"
+                                    target="_Blank"><img src="img/icon_jupyter.png" class="icon_research_meta"
+                                        alt="link to jupyter notebook" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- DTM-based filtrations  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="https://arxiv.org/abs/1811.04757"><img src="img/icon_DTM-filtrations.gif"
+                        class="icon_research_img" alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>DTM-based filtrations</b> (with H. Anai, F. Chazal, M. Glisse, Y. Ike, H. Inakoshi, Y.
+                        Umeda), in <a href="https://folk.ntnu.no/mariusth/Abel/" target="_blank">Abel Symposium 2018</a>
+                        and <a href="http://drops.dagstuhl.de/opus/volltexte/2019/10462/" target="_blank"> 35th International Symposium on Computational Geometry (2019)</a>.
+                        We define filtrations for persistent homology that are robust to noise and anomalous points.
+                    </p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="https://arxiv.org/abs/1811.04757" target="_Blank"><img
+                                        src="img/icon_document.jpg" class="icon_research_meta" alt="link to arxiv"/></a></td>
+                            <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklAOt4dkygG8Zv_-wUvlaz07"
+                                    target="_Blank"><img src="img/icon_youtube.png" class="icon_research_meta" alt="link to youtube"/></a></td>
+                            <td><a href="https://github.com/raphaeltinarrage/DTM-Filtrations/blob/master/Demo.ipynb"
+                                    target="_Blank"><img src="img/icon_jupyter.png" class="icon_research_meta" alt="link to jupyter notebook"/></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Topological inference from measures and vector bundles -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="files/Tinarrage_Dissertation.pdf"><img src="img/icon_thesis.png" class="icon_research_img"
+                            alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b><u>PhD dissertation:</u> Topological inference from measures and vector bundles,</b> defended at
+                        <a href="https://www.imo.universite-paris-saclay.fr/en/" target="_blank">Laboratoire
+                            de Mathématiques d'Orsay</a>, October 2020.
+                        <a href="files/Slides_Dissertation.pdf" target="_blank">Slides</a>
+                        and <a href="files/Reports_Dissertation.pdf" target="_blank">reports</a>.
+                    </p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="files/Tinarrage_Dissertation.pdf" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                            <td><a href="https://youtu.be/kHGv8BfeHho" target="_blank"><img
+                                        src="img/icon_youtube.png" class="icon_research_meta" alt="link to youtube" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <!-- List of publications - Portuguese -->
+        <p>Conference articles written in Portuguese:</p>
+
+        <table class=table_main>
+            <!-- >O impacto da Súmula Vinculante 26 na diminuição de demanda similar no STF  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="files/Paper_CONPEDI_Quantitativa.pdf"><img src="img/icon_CONPEDI_Quantitativa.png"
+                            class="icon_research_img" alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>O impacto da Súmula Vinculante 26 na diminuição de demanda similar no STF: uma análise
+                            quantitativa por modelos de machine learning</b> (with B. Chagas, C. Damian, A. Jaccoud, P. de
+                        Oliveira, H. Hennes, J. Poco, J. Ponciano, L. Resck), presented at <a
+                            href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro
+                            Internacional do CONPEDI 2022</a>.
+                        A comparison of NLP methods for the automatic classification of law documents.
+                    </p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="files/Paper_CONPEDI_Quantitativa.pdf" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        
+            <!-- > Progressão de regime em crimes hediondos no Supremo Tribunal Federal  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="files/Paper_CONPEDI_Empirica.pdf"><img src="img/icon_CONPEDI_Empirica.png"
+                            class="icon_research_img" alt="link to arxiv"></a>
+                </td>
+                <td class="cell_research_text">
+                    <p><b>Progressão de regime em crimes hediondos no Supremo Tribunal Federal: uma análise empírica
+                            pela Súmula Vinculante 26</b> (with B. Chagas, C. Damian, A. Jaccoud, P. de Oliveira, H. Hennes, J.
+                        Poco, J. Ponciano, L. Resck), presented at <a
+                            href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro
+                            Internacional do CONPEDI 2022</a>.
+                        An empirical analysis of Brazilian Supreme Court’s Precedent nº 26.</p>
+                </td>
+                <td class="cell_research_links">
+                    <table class="table_links">
+                        <tr>
+                            <td><a href="files/Paper_CONPEDI_Empirica.pdf" target="_Blank"><img src="img/icon_document.jpg"
+                                        class="icon_research_meta" alt="link to arxiv" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- Code -->
+        <h2 id="code"> Code </h2>
+
+        My PhD work is implemented in the package <code>velour</code> for Python. It can be downloaded via <a
+            href="https://pypi.org/project/velour/" target="_blank">PyPI</a> or <a
+            href="https://github.com/raphaeltinarrage/velour" target="_blank">GitHub</a>.
+        
+        <br>My others articles are also implemented in Python and available on my <a href="https://github.com/raphaeltinarrage?tab=repositories" target="_blank">GitHub page</a>.
+
+
+        <!-- Teaching -->
+        <h2 id="teaching"> Teaching </h2>
+        
+            <!-- Teaching - EMAp -->
+            <p>I gave two summer courses at <a href="https://emap.fgv.br/en" target="_blank">FGV EMAp</a>.</p>
+            
+            <table class=table_main>
+                <!-- EMAp Topology 2023 -->
+                <tr>
+                    <td class="cell_research_img">
+                        <a href="EMApTopology.html"><img src="img/icon_Course_Topology_2023.png" class="icon_research_img"
+                                alt="link to course page"></a>
+                    </td>
+                    <td class="cell_research_text">
+                        <p>2023, <b>General and Combinatorial Topology,</b> 3rd year graduation course.
+                            Fundamental notions of point set topology (limits, continuity, metrics, compactness, density), and introduction
+                            to simplicial topology (including a proof of Borsuk-Ulam theorem).
+                            More information on the <a href="EMApTopology.html" target="_blank">course page</a>.
+                        </p>
+                    </td>
+                    <td class="cell_research_links">
+                        <table class="table_links">
+                            <tr>
+                                <td><a href="files/EMApTopology/SummerCourseTopology.pdf" target="_Blank"><img
+                                            src="img/icon_document.jpg" class="icon_research_meta" alt="link to pdf course" /></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            
+                <!-- EMAp TDA 2021 -->
+                <tr>
+                    <td class="cell_research_img">
+                        <a href="EMAp.html"><img src="img/icon_Course_TDA_2021.png" class="icon_research_img"
+                                alt="link to course page"></a>
+                    </td>
+                    <td class="cell_research_text">
+                        <p>2021, <b>Topological Data Analysis with Persistent Homology.</b>
+                            3rd year graduation course.
+                            Fundamental notions of point set topology, simplicial homology, persistent homology (with a sketch of proof
+                            of the stability theorem).
+                            More information on the <a href="EMAp.html" target="_blank">course page</a>.
+                        </p>
+                    </td>
+                    <td class="cell_research_links">
+                        <table class="table_links">
+                            <tr>
+                                <td><a href="files/EMAp/SummerCourseTDA.pdf" target="_Blank"><img src="img/icon_document.jpg"
+                                            class="icon_research_meta" alt="link to pdf course" /></a></td>
+                                <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklB221BEq6zwb_FX5bIr7dvx"
+                                        target="_blank"><img src="img/icon_youtube.png" class="icon_research_meta"
+                                            alt="link to youtube" /></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Teaching - UPSUD -->
+            <p>At <a href="https://www.universite-paris-saclay.fr/en" target="_blank">Université Paris-Saclay</a>, I was assistant professor for the following courses. </p>
+
+            <table class="table_list">
+                <tr>
+                    <td> 2017-2019 </td>
+                    <td> M257 </td>
+                    <td><b>TD Equations différentielles ordinaires</b>, L2 Biologie-Chimie.
+                        More information <a href="M257.html" target="_blank">here</a>.</td>
+                </tr>
+
+                <tr>
+                    <td> 2017-2020 </td>
+                    <td> M331 </td>
+                    <td><b>TP Inférence statistique</b>, L3 MINT.</td>
+                </tr>
+
+                <tr>
+                    <td> 2017-2020 </td>
+                    <td> M326 </td>
+                    <td><b>TD Projet modélisation et calcul scientifique</b>, L3 MINT.</td>
+                </tr>
+            </table>
+
+
+        <!-- Students -->
+        <h2 id="students"> Students </h2>
+
+        <p>During my post-doc at <a href="https://emap.fgv.br/en" target="_blank">FGV EMAp</a>, I advised two student's projects. </p>
+
+        <table class="table_list">
+            <tr>
+                <td> 2021-2023 </td>
+                <td> MSc student <a href="https://hlovisiennes.github.io/website/" target="_blank">Henrique Hennes</a>,
+                    Adaptation of tools from Lie geometry to Data Analysis
+                </td>
+            </tr>
+        
+            <tr style=" vertical-align: top">
+                <td> 2021-2023 </td>
+                <td> Undergraduate students Beatriz S. Chagas, Ana C. M. Jaccoud, Carla M. Damian and Pedro B. de
+                    Oliveira,<br>
+                    Development of Data Analysis techniques for Brazilian legal documents.
+                </td>
+            </tr>
+        </table>
+
+
+        <!-- Talks -->
+        <h2 id="talks"> Talks and posters </h2>
+
+
+        <table class="table_talks">
+
+            <tr>
+                <td class="cell_talks_date"> Mar 2024 </td>
+                <td class="cell_talks_links">
+                </td>
+                <td class="cell_talks_text">
+                    FGV Rio, 
+                    <a href="https://eventos.fgv.br/en/brazopt2024" target="_blank">Brazilian Workshop on Continuous Optimization,</a>
+                    LieDetect
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 31 Jan 2024 </td>
+                <td class="cell_talks_links">
+                </td>
+                <td class="cell_talks_text">
+                    Online, 
+                    <a href="https://team.inria.fr/datashape/" target="_blank">Datashape Seminar,</a>
+                    LieDetect
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 5 Oct 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Tutorial_DSA.zip" target="_blank"><img src="img/icon_jupyter.png" class="icon_talks"
+                            alt="link to zip file" /></a>
+                </td>
+                <td class="cell_talks_text">Online, <a
+                        href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home"
+                        target="_blank">Dynamical Systems & Applications,</a>
+                    Minicourse IV: Python tutorial
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 3 Oct 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_DSA_III.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=ONJooSU3w1k" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text"><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09"
+                        target="_blank">Online</a>, <a
+                        href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home"
+                        target="_blank">Dynamical
+                        Systems & Applications,</a>
+                    TDA Minicourse III: Persistent homology
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 28 Sept 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_DSA_II.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=Ts_xbpzoX3s" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text"><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09"
+                        target="_blank">Online</a>, <a
+                        href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home"
+                        target="_blank">Dynamical Systems & Applications,</a>
+                    TDA Minicourse II: Homological inference
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 26 Sept 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_DSA_I.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=Tr2xbhTyRLY" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text"><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09"
+                        target="_blank">Online</a>, <a
+                        href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home"
+                        target="_blank">Dynamical Systems & Applications</a>,
+                    TDA Minicourse I: Topological invariants
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 26 Jan 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SSDS_III.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=fjvXZFGhgrg" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023"
+                        target="_blank">Summer
+                        School on Data Science,</a>
+                    TDA Minicourse III: Persistent homology
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 26 Jan 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SSDS_II.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=OEC7zzQpCNk" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023"
+                        target="_blank">Summer
+                        School on Data Science,</a>
+                    TDA Minicourse II: Homological inference
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 25 Jan 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SSDS_I.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=bvDzJF9j8Cc" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023"
+                        target="_blank">Summer
+                        School on Data Science,</a>
+                    TDA Minicourse I: From topology to data analysis
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 19 Jan 2023 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_LDA2023.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">FGV Rio, <a href="https://www.icmc.usp.br/" target="_blank">Workshop On Legal
+                        Digital
+                        Intelligence,</a>
+                    TDA and Súmulas Vinculantes
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="cell_talks_date"> 24 Nov 2022 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_ICMCII2022.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=qsHPO2WrRzY" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">USP São Carlos, <a href="https://www.icmc.usp.br/" target="_blank">ICMC
+                        Seminário,</a>
+                    Análise Topológica de Dados e suas aplicações
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 21 Nov 2022</td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_ICMCI2022.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">USP São Carlos, <a href="https://www.icmc.usp.br/" target="_blank">ICMC
+                        Seminário,</a>
+                    TDA para escolha de resolução temporal na visualização de grafos
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date">14 Sept 2022</td>
+                <td class="cell_talks_links">
+                </td>
+                <td class="cell_talks_text">Santiago, Chile, <a href="https://conpedi.org.br/#/h/XI_encontro_internacional"
+                        target="_blank">XI Encontro
+                        do CONPEDI,</a>
+                    O impacto da SV 26 na diminuição de demanda similar no STF
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 13 Sept 2022</td>
+                <td class="cell_talks_links">
+                </td>
+                <td class="cell_talks_text">Santiago, Chile, <a href="https://conpedi.org.br/#/h/XI_encontro_internacional"
+                        target="_blank">XI Encontro
+                        do CONPEDI,</a>
+                    Progressão de regime em crimes hediondos no STF
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> June 2022 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Poster_ATMCS_2022.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">Mathematical Institute Oxford, <a href="https://atmcs.web.ox.ac.uk/home"
+                        target="_blank">ATMCS</a>,
+                    Simplicial approximation to CW-complexes in practice
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date">8 June 2021</td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SoCG2021.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://youtu.be/PaKkzcMZC70" target="_blank"><img src="img/icon_youtube.png" class="icon_talks"
+                            alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Online, <a href="https://cse.buffalo.edu/socg21/" target="_blank">SoCG Minisymposium Comp. Top.,</a>
+                    Simplicial approximation to CW-complexes in practice
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 9 June 2021</td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_EMINESII2021.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://youtu.be/v5dKt_39smo" target="_blank"><img src="img/icon_youtube.png" class="icon_talks"
+                            alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Online, <a href="https://www.emines-ingenieur.org/" target="_blank">EMINES,</a>
+                    Analyse Topologique des Données II : Homologie persistante
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> 26 May 2021</td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_EMINESI2021.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://youtu.be/GQk-OHNiM7Q" target="_blank"><img src="img/icon_youtube.png" class="icon_talks"
+                            alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Online, <a href="https://www.emines-ingenieur.org/" target="_blank">EMINES,</a>
+                    Analyse Topologique des Données I : Invariants topologiques
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> April 2021 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_EMApII2021.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=HfkuIqxhjGY" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    FGV Rio, <a href="https://emap.fgv.br/en/seminars" target="_blank">EMAp Seminário,</a>
+                    Topological inference in TDA II: Persistence barcodes
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> April 2021 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_EMApI2021.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=fqeazsBn3RE" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">FGV Rio, <a href="https://emap.fgv.br/en/seminars" target="_blank">EMAp
+                        Seminário,</a>
+                    Topological inference in TDA I: Topology in datasets
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Dec 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_AATRN2020.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=xnQdGRvWenw" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    <a href="https://topology.ima.umn.edu/seminars" target="_blank">Applied Algebraic Topology
+                        Network,</a>
+                    Persistent Stiefel-Whitney classes
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Dec 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_UMPA2020.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    UMPA Lyon, <a href="http://www.umpa.ens-lyon.fr/seminaires/seminaire-edp-et-modelisation"
+                        target="_blank">Séminaire EDP Modélisation,</a>
+                    Inférence topologique avec l'homologie persistante
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Nov 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_EPFL2020.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=-AGpfIo8RsA" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Online, <a href="https://www.epfl.ch/labs/hessbellwald-lab/seminar/apptopsem2021/" target="_blank">EPFL
+                        Applied Topology Seminar,</a>
+                    Persistent Stiefel-Whitney classes
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Oct 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_Dissertation.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=kHGv8BfeHho" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Orsay <a href="https://www.imo.universite-paris-saclay.fr/en/" target="_blank">LMO Univ.
+                        Paris-Sud,</a>
+                    <u>PhD Defense</u>, Topological inference from measures and vector bundles
+                </td>
+            </tr>
+            <tr>
+                <td class="cell_talks_date"> June 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SoCG2020.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=mXRjvwJJ8m8" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Online, <a href="https://socg20.inf.ethz.ch/" target="_blank">Symposium of Computational
+                        Geometry,</a>
+                    Recovering the homology of immersed manifolds
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> May 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_seminaire_informel.pdf" target="_blank"><img src="img/icon_document.jpg"
+                            class="icon_talks" alt="link to pdf presentation" /></a>
+                    <a href="https://www.youtube.com/watch?v=uDba3kV3Sf0" target="_blank"><img src="img/icon_youtube.png"
+                            class="icon_talks" alt="link to youtube" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    LMO Orsay, <a href="https://sites.google.com/view/ngocnhinguyen/s%C3%A9minaire-informel"
+                        target="_blank">Séminaire informel,</a>
+                    Introduction à l'homologie persistante
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Mar 2020 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Notes_Datashape2020.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Inria Saclay, <a href="https://team.inria.fr/datashape/seminars/" target="_blank">Datashape
+                        seminar</a>,
+                    Introduction aux classes de Stiefel-Whitney
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> Oct 2019 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_Datashape2019.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Inria Saclay, <a href="https://team.inria.fr/datashape/seminars/" target="_blank">Datashape
+                        seminar</a>,
+                    Recovering the homology of immersed manifolds
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> June 2019 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Slides_SoCG2019.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    Portland, <a href="https://eecs.oregonstate.edu/socg19/papers.html" target="_blank">Symposium on
+                        Computational Geometry,</a>
+                    DTM-based filtrations
+                </td>
+            </tr>
+
+            <tr>
+                <td class="cell_talks_date"> June 2018 </td>
+                <td class="cell_talks_links">
+                    <a href="files/Poster_ATMCS.pdf" target="_blank"><img src="img/icon_document.jpg" class="icon_talks"
+                            alt="link to pdf presentation" /></a>
+                </td>
+                <td class="cell_talks_text">
+                    IST Austria, <a href="https://www2.ist.ac.at/atmcs8/" target="_blank">Algebraic Topology: Methods,
+                        Computation and Science</a>,
+                    DTM-based filtrations
+                </td>
+            </tr>
+
+        </table>
+
+        <!-- Miscellaneous -->
+        <h2 id="misc"> Miscellaneous </h2>
+
+        <table class=table_main>
+        
+            <!-- MeJ  -->
+            <tr>
+                <td class="cell_research_img">
+                    <a href="MEJ.html"><img src="img/icon_MeJ.jpg" class="icon_research_img" alt="link to page"></a>
+                </td>
+                <td class="cell_research_text">
+                    I used to conduct the <b>MATh.en.JEANS workshop</b> in Collège Alain Fournier (Orsay), an introduction to
+                    research for middle school students.
+                </td>
+                <td class="cell_research_links">
+                </td>
+        </table>
+
     </div>
-            		
-    
-    
-    <br>
-    <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 50px 0px;"><tr>
-            <td><a href="https://github.com/raphaeltinarrage" target="_Blank"><img src ="img/icon_github.png" id="icon_menu"/></a></td>
-            <td><a href="https://www.youtube.com/channel/UCE5OLOmBR7vDfYpL9p9LAPw" target="_Blank"><img src ="img/icon_youtube.png" id="icon_menu"/></a></td>
-            <td><a href="https://arxiv.org/search/?searchtype=author&query=Tinarrage%2C+R" target="_Blank"><img src ="img/icon_arxiv.png" id="icon_menu"/></a></td>
-            <td><a href="https://scholar.google.com/citations?user=bkIa2aYAAAAJ&hl=en" target="_Blank"><img src ="img/icon_scholar.png" id="icon_menu"/></a></td>
-            <td><a href="https://hal.archives-ouvertes.fr/search/index/?q=raphael-tinarrage&submit" target="_Blank"><img src ="img/icon_hal.png" id="icon_menu"/></a></td>
-            <td><a href="https://orcid.org/0000-0002-1404-1095" target="_Blank"><img src ="img/icon_orcid.png" id="icon_menu"/></a></td>
-            <td><a href="http://www.theses.fr/s191301" target="_Blank"><img src ="img/icon_theses.jpg" id="icon_menu"/></a></td>
-        </tr></table>
-<!--		<img src="img/pic.jpg" border=0 width=800 title="">-->
-			
-        <p> Postdoc at <a href="https://emap.fgv.br/en" target="_blank">FGV EMAp</a>, advised by <a href="https://emap.fgv.br/professores/cesar-camacho" target="_blank">César Camacho</a>.
-            
-        <br> Former PhD Student at <a href="https://www.imo.universite-paris-saclay.fr/en/" target="_blank">Laboratoire de Mathématiques d'Orsay</a> and <a href="https://www.inria.fr/en/datashape" target="_blank">Inria</a>, advised by <a href="http://geometrica.saclay.inria.fr/team/Fred.Chazal/" target="_blank">Frédéric Chazal</a> and <a href="https://geometrica.saclay.inria.fr/team/Marc.Glisse/" target="_blank">Marc Glisse</a>.
-    
-        <br> Here is my <a href="files/Tinarrage_Vitae.pdf">curriculum vitae</a> and a <a href="files/Tinarrage_Publications.pdf">list of publications</a>.</p>
+</body>
 
-		<hr>
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0;"><tr>
-        <td><button class="button" onclick="location.href='#research'">Research</button></td>
-        <td><button class="button" onclick="location.href='#code'">Code</button></td>
-        <td><button class="button" onclick="location.href='#teaching'">Teaching</button></td>
-        <td><button class="button" onclick="location.href='#talks'">Talks</button></td>
-            <td><button class="button" onclick="location.href='#misc'">Misc</button></td>
-        </tr></table>
-    
-    
-		<hr>
-		<h2 id="research"> Research </h2>
-    
-    <p>On the theoretical side, my research interests include persistent homology, varifolds theory and combinatorics of simplicial complexes.</p>				
-    
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0">
-            <tr><!-- LieDetect  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/2309.03086"><img src="img/icon_LieDetect.gif" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>LieDetect: Detection of representation orbits of compact Lie groups from point clouds,</b> with Henrique Ennes.
-		    Preprint.
-                    An algorithm for the estimation of linear orbits from finite samples,
-                    allowing to retrieve the precise representation as a sum of irreps.</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/2309.03086" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklBQlwrGyAnisJ-lGiLFeTVw" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>
-                        <td><a href="https://github.com/HLovisiEnnes/LieDetect" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-
-		
-            <tr><!-- Simplicial approximation to CW complexes in practice  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/2112.07573"><img src="img/icon_CWcomplexes.gif" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>Simplicial approximation to CW complexes in practice.</b> Preprint.
-                    We study an algorithm which converts CW complexes into simplicial complexes.
-                    We obtain a potential triangulation of the Grassmannian of planes in dimension 4.</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/2112.07573" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/watch?v=PaKkzcMZC70" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>
-                        <td><a href="https://github.com/raphaeltinarrage/SimplicialApproximationCW/blob/main/Demo.ipynb" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-            
-            <tr><!-- Computing persistent Stiefel-Whitney classes of line bundles  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/2005.12543"><img src="img/icon_PSFclasses.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>Computing persistent Stiefel-Whitney classes of line bundles.</b> Published in <a href="https://link.springer.com/article/10.1007/s41468-021-00080-4" target="_blank">JACT'21</a>.
-                    We define and study characteristic classes within the framework of persistent homology. We define an algorithm which estimates the orientability of datasets.</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/2005.12543" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/watch?v=xnQdGRvWenw" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>
-                        <td><a href="https://github.com/raphaeltinarrage/PersistentCharacteristicClasses/blob/master/Demo.ipynb" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-
-            <tr><!-- Recovering the homology of immersed manifolds  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/1912.03033"><img src="img/icon_ImmersedManifolds.gif" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>Recovering the homology of immersed manifolds.</b> 
-                    Published in <a href="https://link.springer.com/article/10.1007/s00454-022-00409-5" target="_blank">DCG'23</a>.
-                    We adapt persistent homology to the case of point clouds sampled on a self-intersecting manifold. We deduce a self-intersection-aware clustering algorithm.</p>                        
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/1912.03033" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklDlIFg1djM5XprlL8Ys0hW4" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>
-                        <td><a href="https://github.com/raphaeltinarrage/ImmersedManifolds/blob/master/Demo.ipynb" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-
-            <tr><!-- DTM-based filtrations  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/1811.04757"><img src="img/icon_DTM-filtrations.gif" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>DTM-based filtrations,</b> with H. Anai, F. Chazal, M. Glisse, Y. Ike, H. Inakoshi, and Y. Umeda. 
-		    Published in <a href="https://folk.ntnu.no/mariusth/Abel/" target="_blank">Abel Symposium'18</a> and <a href="http://drops.dagstuhl.de/opus/volltexte/2019/10462/" target="_blank">SoCG'19</a>.
-                    We define filtrations for persistent homology that are robust to noise and anomalous points. </p>                        
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/1811.04757" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklAOt4dkygG8Zv_-wUvlaz07" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>
-                        <td><a href="https://github.com/raphaeltinarrage/DTM-Filtrations/blob/master/Demo.ipynb" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-
-    </table>
-    
-    
-    <p>I also work on concrete applications of Topological Data Analysis and machine learning.</p>		
-    
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0">
-            <tr><!-- TDANetVis: Suggesting temporal resolutions for graph visualization using zigzag persistent homology  -->
-                <td style="width: 200px;">
-                    <a href="https://arxiv.org/abs/2304.03828"><img src="img/icon_TDANetVis.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>TDANetVis: Suggesting temporal resolutions for graph visualization using zigzag persistent homology,</b> 
-			    with Jean Ponciano, Claudio Linhares, Agma Traina and Jorge Poco.
-			    Preprint.
-	                    A parameter-suggestion and interactive visualization tool for large dynamic graphs.</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="https://arxiv.org/abs/2304.03828" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-<!--                         <td><a href="https://www.youtube.com/watch?v=PaKkzcMZC70" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td>   -->
-                        <td><a href="https://github.com/raphaeltinarrage/TDANetVis" target="_Blank"><img src ="img/icon_jupyter.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>
-		
-            <tr><!-- >O impacto da Súmula Vinculante 26 na diminuição de demanda similar no STF  -->
-                <td style="width: 200px;">
-                    <a href="files/Paper_CONPEDI_Quantitativa.pdf"><img src="img/icon_CONPEDI_Quantitativa.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>O impacto da Súmula Vinculante 26 na diminuição de demanda similar no STF: uma análise quantitativa por modelos de machine learning.</b> Conference article presented at <a href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro Internacional do CONPEDI</a>.
-                    A comparison of NLP methods for the automatic classification of law documents (in Portuguese).</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="files/Paper_CONPEDI_Quantitativa.pdf" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>    
-            
-            <tr><!-- > Progressão de regime em crimes hediondos no Supremo Tribunal Federal  -->
-                <td style="width: 200px;">
-                    <a href="files/Paper_CONPEDI_Empirica.pdf"><img src="img/icon_CONPEDI_Empirica.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>Progressão de regime em crimes hediondos no Supremo Tribunal Federal: uma análise empírica pela Súmula Vinculante 26.</b> Conference article presented at <a href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro Internacional do CONPEDI</a>.
-                        An empirical analysis of Brazilian Supreme Court’s SV 26 with respect to regime progression (in Portuguese).</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="files/Paper_CONPEDI_Empirica.pdf" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>    
-    </table>    
-        
-    
-        <p>My PhD thesis can be found here:</p>	
-    
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0">
-            <tr><!-- Topological inference from measures and vector bundles -->
-                <td style="width: 200px;">
-                    <a href="files/Tinarrage_Dissertation.pdf"><img src="img/icon_thesis.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p><b>Topological inference from measures and vector bundles.</b> PhD dissertation, defended at Laboratoire de Mathématique d'Orsay the 12th of October, 2020.
-                    <a href="files/Slides_Dissertation.pdf" target="_blank">Slides</a>			
-                    and <a href="files/Reports_Dissertation.pdf" target="_blank">reports</a>.</p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="files/Tinarrage_Dissertation.pdf" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://youtu.be/kHGv8BfeHho" target="_blank" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>     
-    </table>
-    
-    
-            
-            
-        <hr>
-		<h2 id="code"> Code </h2>
-        	
-    <p>My work is implemented in the package <code>velour</code> for Python. It can be downloaded via <a href="https://pypi.org/project/velour/" target="_blank">PyPI</a> or <a href="https://github.com/raphaeltinarrage/velour" target="_blank">GitHub</a>.</p>
-    
-    
-
-    <hr>
-    <h2 id="teaching"> Teaching </h2>
-		
-    <p>At FGV EMAp, I gave two summer courses:</p>
-    
-    <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0">
-            <tr><!-- EMAp Topology 2023 -->
-                <td style="width: 200px;">
-                    <div align="right">
-                    <a href="EMApTopology.html"><img src="img/icon_Course_Topology_2023.png" id="icon_research_img"></a>
-                    </div>
-                </td>
-                <td style="width: 560px;">
-                    <p>2023, <b>General and Combinatorial Topology.</b> 
-                    3rd year graduation course.
-                    More information on the <a href="EMApTopology.html" target="_blank">course page</a>.
-                    </p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="files/EMApTopology/SummerCourseTopology.pdf" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>     
-
-            <tr><!-- EMAp TDA 2021 -->
-                <td style="width: 200px;">
-                    <a href="EMAp.html"><img src="img/icon_Course_TDA_2021.png" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p>2021, <b>Topological Data Analysis with Persistent Homology.</b> 
-                    3rd year graduation course.
-                    More information on the <a href="EMAp.html" target="_blank">course page</a>.
-                    </p>
-                </td>
-                <td style="width: 200px;">
-                    <table cellspacing=0 style="border-spacing: 20px 0;"><tr>
-                        <td><a href="files/EMAp/SummerCourseTDA.pdf" target="_Blank"><img src ="img/icon_document.jpg" id="icon_research_meta"/></a></td>
-                        <td><a href="https://www.youtube.com/playlist?list=PL_FkltNTtklB221BEq6zwb_FX5bIr7dvx" target="_blank" target="_Blank"><img src ="img/icon_youtube.png" id="icon_research_meta"/></a></td></tr>
-                    </table>
-                </td>    
-            </tr>     
-    </table>
-        
-    <p>At Université Paris-Sud, I was assistant professor for the following courses: </p>
-        
-    <table class="colright" style="margin-left:auto;margin-right:auto;border-spacing: 10px 2px">
-        <tr>
-            <td> 2017-2019 </td>
-            <td> M257, <b>TD Equations différentielles ordinaires</b>, L2 Biologie-Chimie.
-            More information <a href="M257.html" target="_blank">here</a>.</td>
-        </tr>
-        
-        <tr>
-            <td> 2017-2020 </td>
-            <td> M331, <b>TP Inférence statistique</b>, L3 MINT.</td>
-        </tr>
-    
-        <tr>
-            <td> 2017-2020 </td>
-            <td> M326, <b>TD Projet modélisation et calcul scientifique</b>, L3 MINT.</td>
-        </tr>
-</table>
-
-    
-
-		<hr>
-		<h2 id="talks"> Talks and posters </h2>
-
-    
-        <table class="colright" style="margin-left:auto;margin-right:auto;border-spacing: 10px 2px">
-	    <tr><td> 5 Oct 2023 </td>
-                <td>
-			<a href="files/Tutorial_DSA.zip" target="_blank"><img src ="img/icon_jupyter.png" id="icon_talks"/></a>
-		</td>    
-                <td>Online, <a href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home" target="_blank">Dynamical Systems & Applications,</a> 
-			TDA Minicourse IV: Python tutorial</td>
-	    </tr>            
-
-	    <tr><td> 3 Oct 2023 </td>
-                <td>
-			<a href="files/Slides_DSA_III.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>		
-			<a href="https://www.youtube.com/watch?v=ONJooSU3w1k" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-		</td>    
-                <td><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09" target="_blank">Online</a>, <a href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home" target="_blank">Dynamical Systems & Applications,</a> 
-			TDA Minicourse III: Persistent homology</td>
-	    </tr>            
-
-	    <tr><td> 28 Sept 2023 </td>
-                <td>
-			<a href="files/Slides_DSA_II.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-			<a href="https://www.youtube.com/watch?v=Ts_xbpzoX3s" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-		</td>    
-                <td><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09" target="_blank">Online</a>, <a href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home" target="_blank">Dynamical Systems & Applications,</a> 
-			TDA Minicourse II: Homological inference</td>
-	    </tr>            
-
-	    <tr><td> 26 Sept 2023 </td>
-                <td>
-			<a href="files/Slides_DSA_I.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>			
-			<a href="https://www.youtube.com/watch?v=Tr2xbhTyRLY" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-		</td>    
-                <td><a href="https://us02web.zoom.us/j/84535758212?pwd=N3NjR0psZzJLa2pNMDlubWIvRUV0UT09" target="_blank">Online</a>, <a href="https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home" target="_blank">Dynamical Systems & Applications</a>, 
-			TDA Minicourse I: Topological invariants</td>
-	    </tr>            
-
-            <tr><td> 26 Jan 2023 </td>
-                <td>
-                    <a href="files/Slides_SSDS_III.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                    <a href="https://www.youtube.com/watch?v=fjvXZFGhgrg" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-                </td>    
-                <td>FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023" target="_blank">Summer School on Data Science,</a> TDA Minicourse III: Persistent homology
-                </td></tr>            
-
-            <tr><td> 26 Jan 2023 </td>
-                <td>
-                    <a href="files/Slides_SSDS_II.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                    <a href="https://www.youtube.com/watch?v=OEC7zzQpCNk" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-                </td>    
-                <td>FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023" target="_blank">Summer School on Data Science,</a> TDA Minicourse II: Homological inference
-                </td></tr>            
-            
-            <tr><td> 25 Jan 2023 </td>
-                <td>
-                    <a href="files/Slides_SSDS_I.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                    <a href="https://www.youtube.com/watch?v=bvDzJF9j8Cc" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-                </td>    
-                <td>FGV Rio, <a href="https://eventos.fgv.br/summer-school-data-science-2023" target="_blank">Summer School on Data Science,</a> TDA Minicourse I: From topology to data analysis
-                </td></tr>            
-
-            <tr><td> 19 Jan 2023 </td>
-                <td>
-                    <a href="files/Slides_LDA2023.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                </td>    
-                <td>FGV Rio, <a href="https://www.icmc.usp.br/" target="_blank">Workshop On Legal Digital Intelligence,</a> TDA and Súmulas Vinculantes
-                </td></tr>            
-
-            
-            <tr><td> 24 Nov 2022 </td>
-                <td>
-                    <a href="files/Slides_ICMCII2022.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                    <a href="https://www.youtube.com/watch?v=qsHPO2WrRzY" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-                </td>    
-                <td>USP São Carlos, <a href="https://www.icmc.usp.br/" target="_blank">ICMC Seminário,</a> Análise Topológica de Dados e suas aplicações 
-                </td></tr>            
-		
-            <tr><td> 21 Nov 2022</td> 
-                <td>
-                    <a href="files/Slides_ICMCI2022.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td>
-                <td>USP  São Carlos, <a href="https://www.icmc.usp.br/" target="_blank">ICMC Seminário,</a> TDA pra escolha de resolução temporal na visualização de grafos</td></tr>    
-                    
-        <tr><td>14 Sept 2022</td>
-            <td></td>
-            <td>Santiago, <a href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro do CONPEDI,</a> O impacto da SV 26 na diminuição de demanda similar no STF</td></tr>    
-
-        <tr><td> 13 Sept 2022</td> 
-            <td></td>
-            <td>Santiago, <a href="https://conpedi.org.br/#/h/XI_encontro_internacional" target="_blank">XI Encontro do CONPEDI,</a> Progressão de regime em crimes hediondos no STF</td></tr>    
-
-        <tr><td> June 2022 </td> 
-            <td><a href="files/Poster_ATMCS_2022.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td>
-            <td>Mathematical Institute Oxford, <a href="https://atmcs.web.ox.ac.uk/home" target="_blank">ATMCS</a>, Simplicial approximation to CW-complexes in practice </td></tr>   
-            
-        <tr><td>8 June 2021</td>
-            <td>
-                <a href="files/Slides_SoCG2021.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                <a href="https://youtu.be/PaKkzcMZC70" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td><td>
-            Online, <a href="https://cse.buffalo.edu/socg21/" target="_blank">SoCG Minisymposium Comp. Top.,</a> Simplicial approximation to CW-complexes in practice</td></tr>    
-    
-        <tr><td> 9 June 2021</td> 
-            <td>
-                <a href="files/Slides_EMINESII2021.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                <a href="https://youtu.be/v5dKt_39smo" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td><td>
-            Online, <a href="https://www.emines-ingenieur.org/" target="_blank">EMINES,</a> Analyse Topologique des Données II : Homologie persistante</td></tr>    
-
-        <tr><td> 26 May 2021</td> 
-            <td>
-                <a href="files/Slides_EMINESI2021.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                <a href="https://youtu.be/GQk-OHNiM7Q" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td><td>
-            Online, <a href="https://www.emines-ingenieur.org/" target="_blank">EMINES,</a> Analyse Topologique des Données I : Invariants topologiques</td></tr>    
-    
-    	<tr><td> April 2021 </td>
-            <td><a href="files/Slides_EMApII2021.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                <a href="https://www.youtube.com/watch?v=HfkuIqxhjGY" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a></td><td>
-            FGV Rio, <a href="https://emap.fgv.br/en/seminars" target="_blank">EMAp Seminário,</a> Topological inference in TDA II: Persistence barcodes</td></tr>    
-
-        <tr><td> April 2021 </td>
-            <td><a href="files/Slides_EMApI2021.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-                <a href="https://www.youtube.com/watch?v=fqeazsBn3RE" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td>
-            <td>FGV Rio, <a href="https://emap.fgv.br/en/seminars" target="_blank">EMAp Seminário,</a> Topological inference in TDA I: Topology in datasets</td></tr>    
-            	
-        <tr><td> Dec 2020 </td>
-            <td><a href="files/Slides_AATRN2020.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-            <a href="https://www.youtube.com/watch?v=xnQdGRvWenw" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a></td><td> 
-            <a href="https://topology.ima.umn.edu/seminars" target="_blank">Applied Algebraic Topology Network,</a> Persistent Stiefel-Whitney classes</td></tr>    
-
-        <tr><td> Dec 2020 </td>
-            <td><a href="files/Slides_UMPA2020.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td><td>
-             UMPA Lyon, <a href="http://www.umpa.ens-lyon.fr/seminaires/seminaire-edp-et-modelisation" target="_blank">Séminaire EDP Modélisation,</a> Inférence topologique avec l'homologie persistante</td></tr>    
-
-        <tr><td> Nov 2020 </td>
-            <td><a href="files/Slides_EPFL2020.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-            <a href="https://www.youtube.com/watch?v=-AGpfIo8RsA" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a></td><td> 
-            Online, <a href="https://www.epfl.ch/labs/hessbellwald-lab/seminar/apptopsem2021/" target="_blank">EPFL Applied Topology Seminar,</a> Persistent Stiefel-Whitney classes</td></tr>    
-
-		<tr><td> Oct 2020 </td>
-            <td><a href="files/Slides_Dissertation.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-            <a href="https://www.youtube.com/watch?v=kHGv8BfeHho" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a></td><td> 
-            Orsay <a href="https://www.imo.universite-paris-saclay.fr/en/" target="_blank">LMO Univ. Paris-Sud,</a> PhD Defense, Topological inference from measures and vector bundles</td></tr>    
-		<tr><td> June 2020 </td>
-            <td><a href="files/Slides_SoCG2020.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-            <a href="https://www.youtube.com/watch?v=mXRjvwJJ8m8" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td><td> 
-            Online, <a href="https://socg20.inf.ethz.ch/" target="_blank">Symposium of Computational Geometry,</a> Recovering the homology of immersed manifolds</td></tr>    
-            
-        <tr><td> May 2020 </td>
-            <td><a href="files/Slides_seminaire_informel.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a>
-            <a href="https://www.youtube.com/watch?v=uDba3kV3Sf0" target="_blank"><img src ="img/icon_youtube.png" id="icon_talks"/></a>
-            </td><td> 
-            LMO Orsay, <a href="https://sites.google.com/view/ngocnhinguyen/s%C3%A9minaire-informel" target="_blank">Séminaire informel,</a> Introduction à l'homologie persistante </td></tr>    
-
-		<tr><td> Mar 2020 </td>
-            <td><a href="files/Notes_Datashape2020.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td><td>
-            Inria Saclay, <a href="https://team.inria.fr/datashape/seminars/" target="_blank">Datashape seminar</a>, Introduction aux classes de Stiefel-Whitney</td></tr>    
-            	
-        <tr><td> Oct 2019 </td>
-            <td><a href="files/Slides_Datashape2019.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td><td> 
-            Inria Saclay, <a href="https://team.inria.fr/datashape/seminars/" target="_blank">Datashape seminar</a>, Recovering the homology of immersed manifolds</td></tr>    
-
-        <tr><td> June 2019 </td>
-            <td><a href="files/Slides_SoCG2019.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td><td> 
-            Portland, <a href="https://eecs.oregonstate.edu/socg19/papers.html" target="_blank">Symposium on Computational Geometry,</a> DTM-based filtrations </td></tr>    
-
-        <tr><td> June 2018 </td>
-            <td><a href="files/Poster_ATMCS.pdf" target="_blank"><img src ="img/icon_document.jpg" id="icon_talks"/></a></td><td> 
-            IST Austria, <a href="https://www2.ist.ac.at/atmcs8/" target="_blank">Algebraic Topology: Methods, Computation and Science</a>, DTM-based filtrations </td></tr>    
-    
-    </table>
-    
-    
-    
-    <hr>
-		<h2  id="misc"> Misc. </h2>
-        
-        <table cellspacing=0 style="margin-left:auto;margin-right:auto;border-spacing: 0px 0;width: 960px">
-            <tr><!-- MeJ -->
-                <td style="width: 200px;">
-                    <a href="MEJ.html"><img src="img/icon_MeJ.jpg" id="icon_research_img"></a>
-                </td>
-                <td style="width: 560px;">
-                    <p>I used to conduct the MATh.en.JEANS workshop <br> in Collège Alain Fournier (Orsay).</p>
-                </td>
-                <td style="width: 200px;">
-                </td>    
-            </tr>     
-    </table>    
-    
-    
-<!--
-		<table cellpadding=10>
-			<tr>
-			<td>
-			<a href="files/Tinarrage_MagistereMemoire.pdf">
-			<img src="img/magistere1.jpg" width=140 border=0></a>
-			</td>
-			<td>
-			A compilation of some of my work as a student <br>
-			in Magistère de Mathématiques d'Orsay (in French).
-			</td>
-			</tr>
-		</table>
--->
-<!--
-		<table cellpadding=10>
-			<tr>
-			<td>
-			<a href="files/Tinarrage_IntroTDA.pdf">
-			<img src="img/img1.jpg" width=150 border=0></a>
-			</td>
-			<td>
-			See here for a gentle introduction to <br>
-			persistent homology (in French).
-			</td>
-			</tr>
-		</table>
--->
-</div></body></html>
+</html>
