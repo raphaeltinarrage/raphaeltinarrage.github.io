@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%% Document class
+
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=1.25in, bottom=1.25in, left=1.250 in, right=1.250in]{geometry}
+\usepackage[portuguese]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%% Packages
+
+\usepackage{amsmath}                         % basic math
+\usepackage{amssymb}                         % math symbols
+\usepackage[capitalise,nameinlink]{cleveref} % \cref, \Cref, \crefrange
+
+%%%%%%%%%%%%%%%%%%%%%% Macros
+
+\newcommand{\R}{\mathbb R}
+\providecommand{\sin}{}\renewcommand{\sin}{\mathop{\rm sen}\nolimits}
+\providecommand{\div}{}\renewcommand{\div}{\mathop{\rm div}\nolimits}
+\DeclareMathOperator{\rot}{rot}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Document
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+\Large{\textsc{FGV/EMAp, Matemática Aplicada, 3$^\text{o}$ período, 2024}}
+\vspace{.25cm}
+
+\HRule
+\\\vspace{.25cm}
+
+\LARGE{\textsc{Cálculo Vetorial --- Teste I}} 
+\HRule
+\end{center}
+\vspace{.5cm}
+
+\noindent\textbf{Modalidades}\textbf{.} 
+Este teste consiste em dois problemas, cada questão valendo um ponto, em um total de dez pontos. As respostas devem ser argumentadas, e a aplicação de propriedades ou teoremas deve ser feita mediante a verificação das hipóteses. Os alunos têm a opção de devolver suas respostas por escrito em papel, pessoalmente ou por foto para o e-mail \texttt{raphael.tinarrage@fgv.br}, ou como um documento escrito com um software de redação matemática, enviado para o mesmo e-mail. 
+Este documento será entregue aos alunos no 13/03/2024, e o prazo final é o 27/03/2024 às 11h10.
+\vspace{.75cm}
+
+\noindent\textbf{Problema 1} (campos vetoriais fechados no toro)\textbf{.} 
+Sejam os conjuntos
+\begin{align*}
+L &= \{(x,y,z)\in\R^3 \mid x=0,~y=0\},\\
+S &= \{(x,y,z)\in\R^3 \mid x^2+y^2=1,~z=0\},\\
+\Omega &= \R^3 \setminus \big(L \cup S)
+\end{align*}
+e os campos vetoriais
+\vspace{-0.25cm}
+\begin{center}
+\begin{minipage}[t]{0.3\linewidth}
+\begin{align*}
+F\colon\Omega&\longrightarrow\R^3\\
+\begin{pmatrix} x \\ y \\ z\end{pmatrix}
+&\longmapsto
+\begin{pmatrix} 
+\dfrac{-y}{x^2+y^2}
+\vspace{.25cm}\\
+\dfrac{x}{x^2+y^2}
+\vspace{.25cm}\\ 
+0
+\end{pmatrix}
+\end{align*}
+\end{minipage}
+\begin{minipage}[t]{0.68\linewidth}
+\begin{align*}
+G\colon\Omega&\longrightarrow\R^3\\
+\begin{pmatrix} x \\ y \\ z\end{pmatrix}
+&\longmapsto
+\begin{pmatrix} 
+\dfrac{-xz}{\sqrt{x^2+y^2}\bigg(\big(\sqrt{x^2+y^2}-1\big)^2+z^2\bigg)}
+\vspace{.25cm}\\
+\dfrac{-yz}{\sqrt{x^2+y^2}\bigg(\big(\sqrt{x^2+y^2}-1\big)^2+z^2\bigg)}
+\vspace{.25cm}\\ 
+\dfrac{\sqrt{x^2+y^2}-1}{\big(\sqrt{x^2+y^2}-1\big)^2+z^2}
+\end{pmatrix}
+\end{align*}
+\end{minipage}
+\end{center}
+
+\begin{enumerate}
+\item[\textbf{(a)}] Justifique que $F$ e $G$ são bem definidos e são de classe $C^\infty$.
+\item[\textbf{(b)}] Mostre que o rotacional destes campos vale zero. 
+\item[\textbf{(c)}] Da pergunta anterior, podemos concluir que os campos são conservativos? Detalhe.
+\item[\textbf{(d)}] Esboce $F$ no plano $\{(x,y,z)\in\R^3\mid z=0\}$ e $G$ no plano $\{(x,y,z)\in\R^3\mid y=0\}$.
+\item[\textbf{(e)}] Mostre que as duas seguintes curvas são curvas integrais de $F$ e $G$, respectivamente. Conclua que os campos não são conservativos.
+\vspace{-0.5cm}
+\begin{center}
+\begin{minipage}{0.49\linewidth}
+\begin{align*}
+\gamma_F\colon&\R\longrightarrow\R^3\\
+t&\longmapsto \begin{pmatrix}
+\cos(4t)/2\\ \sin(4t)/2 \\ 0
+\end{pmatrix}
+\end{align*}
+\end{minipage}
+\begin{minipage}{0.49\linewidth}
+\begin{align*}
+\gamma_G\colon&\R\longrightarrow\R^3\\
+t&\longmapsto \begin{pmatrix}
+1+\cos(4t)/2\\ 0\\ \sin(4t)/2
+\end{pmatrix}.
+\end{align*}
+\end{minipage}
+\end{center}
+\end{enumerate}
+
+\noindent\underline{Indicações:} Um campo vetorial conservativo tem rotacional nulo. Além disso, uma curva integral para o campo $F\colon\R^3\rightarrow\R^3$ é uma curva $\gamma\colon\R\rightarrow\R^3$ tal que $\gamma' = F\circ \gamma$.
+Se um campo admite uma curva integral não-constante e não-injetora, então não é conservativo.
+\vspace{.10cm}
+
+\noindent\underline{Comentário:} 
+Como veremos mais adiante, a existência de campos vetoriais conservativos de rotacional nulo depende da topologia do espaço subjacente. 
+Por exemplo, se o domínio for simplesmente conexo, então tais campos não existem (esse resultado é o lema de Poincaré). 
+Por outro lado, o domínio $\Omega$ em nosso problema é, topologicamente falando, um toro (mais precisamente, $\Omega$ se retrai em um toro). 
+No toro, há essencialmente dois campos vetoriais conservativos com rotacional nulo: são os campos $F$ e $G$ acima.
+\vspace{1cm}
+
+\noindent\textbf{Problema 2} (velocidade da luz)\textbf{.} 
+Neste problema, trabalharemos no espaço $\R^4$, cujos pontos serão denotados genericamente $(x,y,z,t)$, sendo as três primeiras coordenadas entendidas como coordenadas espaciais e a quarta como uma coordenada temporal.
+Dada uma função $F\colon\R^4\rightarrow\R^3$, que veremos como um campo vetorial dinâmico (ou seja, dependente do tempo), calcularemos o rotacional ($\rot$), o divergente ($\div$) e o laplaciano vetorial ($\nabla^2$) com relação às coordenadas espaciais.
+Isto é, denotando $(F_1,F_2,F_3)$ as componentes de $F$, consideraremos
+\begin{align*}
+\rot F &= \left(
+\frac{\partial F_3}{\partial y}-\frac{\partial F_2}{\partial z},~~
+\frac{\partial F_1}{\partial z}-\frac{\partial F_3}{\partial x},~~ \frac{\partial F_2}{\partial x}-\frac{\partial F_1}{\partial y}
+\right),\\
+\div F &= \frac{\partial F_1}{\partial x} + \frac{\partial F_2}{\partial y} + \frac{\partial F_3}{\partial z},\\
+\nabla^2 F &= 
+\begin{pmatrix}
+\dfrac{\partial^2 F_1}{\partial x^2}+\dfrac{\partial^2 F_1}{\partial y^2}+\dfrac{\partial F_1^2}{\partial z^2}\vspace{.2cm}
+\\
+\dfrac{\partial^2 F_2}{\partial x^2}+\dfrac{\partial^2 F_2}{\partial y^2}+\dfrac{\partial^2 F_2}{\partial z^2}\vspace{.2cm}
+\\
+\dfrac{\partial^2 F_3}{\partial x^2}+\dfrac{\partial^2 F_3}{\partial y^2}+\dfrac{\partial^2 F_3}{\partial z^2}
+\end{pmatrix}.
+\end{align*}
+Este problema trata das equações de Maxwell no vácuo sem carga e sem corrente:
+\begin{align}
+\div E &= 0 \label{eq:testeI_maxwell_1}\\
+\div B &= 0 \label{eq:testeI_maxwell_2}\\
+\rot E &= -\dfrac{\partial B}{\partial t} \label{eq:testeI_maxwell_3}\\
+\rot B &= \mu_0\epsilon_0 \dfrac{\partial E}{\partial t} \label{eq:testeI_maxwell_4}
+\end{align}
+onde $E,B\colon\R^4\rightarrow\R^3$ são funções de classe $C^2$, chamadas respectivamente de campo elétrico e campo magnético, $\mu_0 = 4\pi\times10^{-7}$ é a permeabilidade do vácuo e $\epsilon_0 \approx 8.85\times10^{-12}$ é a permissividade do vácuo.
+Além disso, dado $\omega\in\R$, $k\in\R^3$ unitário e $n\in\R^3$ ortogonal a $k$, pomos a seguinte função, chamada de onda plana monocromática:
+\begin{align}
+F_{(\omega, k, n)}\colon \R^4&\longrightarrow\R^3 \label{eq:onda_plana}\\
+(x,z,y,t)&\longmapsto \cos\big( \big\langle k, (x,y,z) \big\rangle - t\omega \big) n.\nonumber
+\end{align}
+O termo $\omega$ é chamado de velocidade, $k$ de vetor de propagação e $n$ de polarização.
+
+\begin{enumerate}
+\item[\textbf{(f)}] Sejam $\omega\in\R$ e $k,n\in\R^3$ ortogonais. Calcule $\rot F_{(\omega, k, n)}$, $\div F_{(\omega, k, n)}$ e $\frac{\partial}{\partial t} F_{(\omega, k, n)}$.
+\item[\textbf{(g)}]
+Seja $\omega\in\R$, $k\in\R^3$ unitário, $n\in\R^3$ ortogonal a $k$ , e define $\widetilde{n} = \frac{1}{\omega} k\times n$.
+Além disso, consideremos as funções $E = F_{(\omega, k, n)}$ e $B = F_{(\omega, k, \widetilde{n})}$.
+Mostre que $E$ e $B$ são soluções das equações \eqref{eq:testeI_maxwell_1}, \eqref{eq:testeI_maxwell_2}, \eqref{eq:testeI_maxwell_3} e \eqref{eq:testeI_maxwell_4} se e somente se $\omega = 1/\sqrt{\mu_0\epsilon_0}$.
+\item[\textbf{(h)}] Seja $F\colon\R^4\rightarrow\R^3$ de classe $C^2$. Prove que $\frac{\partial}{\partial t} \rot F = \rot \frac{\partial}{\partial t} F$.
+\item[\textbf{(i)}] 
+Sejam $E,B\colon\R^4\rightarrow\R^3$ soluções de classe $C^2$ das equações \eqref{eq:testeI_maxwell_1}, \eqref{eq:testeI_maxwell_2}, \eqref{eq:testeI_maxwell_3} e \eqref{eq:testeI_maxwell_4}.
+Mostre
+\begin{align}
+\nabla^2 E = \mu_0\epsilon_0 \dfrac{\partial^2 E}{\partial t^2}, \label{eq:testeI_ondas_1}\\
+\nabla^2 B = \mu_0\epsilon_0 \dfrac{\partial^2 B}{\partial t^2}. \label{eq:testeI_ondas_2}
+\end{align}
+Poderemos aplicar o operador rotacional aos membros das equações \eqref{eq:testeI_maxwell_3} e \eqref{eq:testeI_maxwell_4} e usar a pergunta anterior e a indicação abaixo.
+\item[\textbf{(j)}] 
+Dada $F\colon\R^2\rightarrow\R$ de classe $C^2$, e denotando genericamente os pontos de $\R^2$ como $(x,t)$, considere equação
+\begin{align}
+\dfrac{\partial^2 F}{\partial t^2} = \mu_0\epsilon_0 \dfrac{\partial^2 F}{\partial x^2}. \label{eq:testeI_ondas}
+\end{align}
+Mostre que para toda função $f\colon\R\rightarrow\R$ de classe $C^2$ e todos $(k,\omega)\in\R^3\times\R$, a seguinte função é solução da \cref{eq:testeI_ondas}:
+\begin{align*}
+F\colon \R^2&\longrightarrow\R\\
+(x,t)&\longmapsto f( kx - t\omega ).
+\end{align*}
+\end{enumerate}
+
+\noindent\underline{Indicação:} 
+Uma função $F\colon\R^3\rightarrow\R^3$ de classe $C^2$ satisfaz a relação
+$$
+\rot(\rot(F)) = \nabla \div F - \nabla^2 F.
+$$
+
+\noindent\underline{Comentário:} 
+O resultado da questão \textbf{(g)} é uma das previsões notáveis das equações de Maxwell: para que uma onda plana seja uma solução, sua velocidade deve ser igual a $1/\sqrt{\mu_0\epsilon_0}\approx2,9\times10^{8}$, ou seja, a velocidade da luz. 
+Hoje sabemos que a luz é uma onda eletromagnética, e este resultado pode parecer tautológico. 
+No entanto, em uma época em que esse conhecimento ainda não estava solidificado, as equações de Maxwell permitiram argumentar a favor da luz como uma onda eletromagnética.
+Além disso, vemos na questão \textbf{(i)} que as equações admitem, em nosso caso (no vácuo, sem carga e sem corrente), uma desacoplagem dos campos elétrico e magnético. Elas seguem então a equação da onda. 
+Em geral, a equação da onda admite uma grande variedade de soluções, como vemos na questão \textbf{(j)}, no caso unidimensional em espaço.
+No entanto, ao adicionar as equações \eqref{eq:testeI_maxwell_1} e \eqref{eq:testeI_maxwell_2} de Mawxell, que atuam como valor inicial, mostra-se que as soluções são, na realidade, apenas combinações lineares das ondas planas monocromáticas da equação \eqref{eq:onda_plana} (na verdade, precisamos tomar ``combinações lineares infinitas'', por meio da teoria das séries de Fourier).
+
+\end{document}
