@@ -110,8 +110,13 @@ h2 {
 
 /* Links to scholar */
 
+.table_scholar {
+  margin:auto;
+  border-spacing: 30px 0px;
+}
+
 .icon_menu {
-  max-width:100px;
+  max-width:70px;
   max-height:35px;
   width: auto;
   height: auto;
