@@ -16,8 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>EMAp Cálculo Vetorial 2024</title>
 
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
     <style>
         span.title {
             color: rgb(255, 0, 119);
@@ -42,6 +40,45 @@
             background-color: rgba(255, 68, 0, 0.342);
         }
     </style>
+
+    <!-- write equation -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script>
+        function getRandomNumber(bottom, top) {
+            return Math.floor( Math.random() * ( 1 + top - bottom ) ) + bottom;
+        }
+
+        var min = 2;
+            max = 12;
+            b1 = getRandomNumber(min, max);
+            c1 = getRandomNumber(min, max);
+            b2 = getRandomNumber(min, max);
+            c2 = getRandomNumber(min, max);
+            n1 = getRandomNumber(4, 12);
+            n2 = getRandomNumber(4, 24);
+
+            n1P1 = +n1 + 1;
+            n1M1 = +n1 - 1;
+            n2P1 = +n2 + 1;
+            n2M1 = +n2 - 1;
+            c1Pc2 = +c1 + +c2;
+            b1Tn1 = b1*n1;
+            b2Tn2 = b2*n2;
+            n1P1D2 = (+n1+1)/2
+            n2P1D2 = (+n2+1)/2
+            n1D2P2 = +n1/2+2
+            n2D2P2 = +n2/2+2            
+
+            string_Stokes = "\
+        $$\
+        \\oint_{S^1} \\big ("+b1+"x^{"+n1P1+"} + "+b2+"y^{"+n2P1+"} + "+c1Pc2+"x^2y^2 \\big)\\text{d}\\ell \
+        = \
+        \\iint_{\\mathcal{D}} \\big( "+c2+"x^2 + "+b1Tn1+"x^{"+n1M1+"} + "+c1+"y^2 +"+b2Tn2+"y^{"+n2M1+"}\\big)  \\text{d}x\\text{d}y\
+        $$";
+    </script>
 </head>
 
 <body>
@@ -50,6 +87,8 @@
         <div style="text-align: center">
             <h1>Cálculo Vetorial</h1>
             <h2>EMAp - Matemática Aplicada - 3<sup>o</sup> período - 2024</h2>
+            <h4><span id="Stokes" >string_Stokes</span></h4>
+            <script>document.getElementById("Stokes").innerHTML = string_Stokes</script>    
         </div>
         <hr><br>
 
@@ -58,7 +97,7 @@
         e o <a href="https://emap.fgv.br/sites/default/files/2024-01/Hor%C3%A1rio%20Matem%C3%A1tica%20Aplicada-2024.1%20-%20site.pdf" target="_blank">quadro de horários</a>.
         <br><br>
 
-        <b>Anotações:</b> Última versão aqui <a href="files/EMApCalculoVetorial/CálculoVetorial.pdf" target="_Blank"><img src="img/icon_document.jpg"
+        <b>Anotações:</b> Última versão aqui <a href="files/EMApCalculoVetorial/CalculoVetorial.pdf" target="_Blank"><img src="img/icon_document.jpg"
             class="icon_research_meta" alt="link to pdf document" style="width: 35px;"></a>
         <br><br>
 
@@ -127,15 +166,15 @@
                 </tr>
                 <tr>
                     <th></th>
-                    <td>25/03 <span class="title">Integral de linha</span>, Campos conversativos<br>
-                        &ensp;&emsp;&emsp;[Stewart §16.3]</td>
+                    <td>25/03 <span class="title">Integral de linha</span>, Teorema de Green<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.4]</td>
                     <td>27/03 Aula prática</td>
                 </tr>
 
                 <tr>
                     <th>Abril</th>
-                    <td>01/04 <span class="title">Integral de linha</span>, Teorema de Green<br>
-                        &ensp;&emsp;&emsp;[Stewart §16.4]</td>
+                    <td>01/04 <span class="title">Integral de linha</span> de campos conversativos<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.3]</td>
                     <td>03/04 Aula prática</td>
                 </tr>
                 <tr>
