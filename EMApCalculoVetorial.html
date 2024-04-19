@@ -57,8 +57,8 @@
             c1 = getRandomNumber(min, max);
             b2 = getRandomNumber(min, max);
             c2 = getRandomNumber(min, max);
-            n1 = getRandomNumber(4, 11);
-            n2 = getRandomNumber(4, 12);
+            n1 = getRandomNumber(4, 12);
+            n2 = getRandomNumber(4, 24);
 
             n1P1 = +n1 + 1;
             n1M1 = +n1 - 1;
@@ -74,7 +74,7 @@
 
             string_Stokes = "\
         $$\
-        \\oint_{S^1} \\big ("+b1+"x^{"+n1P1+"} + "+b2+"y^{"+n2P1+"} + "+c1Pc2+"x^2y^2 \\big)\\text{d}\\ell \
+        \\oint_{S^1} \\big ("+b1+"x^{"+n1P1+"} + "+b2+"y^{"+n2P1+"} + "+c1Pc2+"x^2y^2 \\big)\\text{d}s \
         = \
         \\iint_{\\mathcal{D}} \\big( "+c2+"x^2 + "+b1Tn1+"x^{"+n1M1+"} + "+c1+"y^2 +"+b2Tn2+"y^{"+n2M1+"}\\big)  \\text{d}x\\text{d}y\
         $$";
@@ -106,12 +106,12 @@
         
         <b>Bibliografia:</b> 
         O Stewart é a referência principal e, ao final deste curso, todo o §16 será abordado.
-        Além disso, para apresentar as curvas e superfícies, bem como as formas diferenciais, usarei os dois seguintes livros de Do Carmo.
+        Além disso, para apresentar as curvas e superfícies, <s>bem como as formas diferenciais</s>, usarei os dois seguintes livros de Do Carmo.
         Porém, não entraremos no mesmo nível de detalhes; vocês podem se limitar às anotações do curso.
         <ul>
             <li>James Stewart, <i>Cálculo Volume 2</i>, <a href="https://ead.ict.unesp.br/pluginfile.php/26291/mod_resource/content/3/Calculo%20-%20James%20Stewart%20-%207%20Edi%C3%A7%C3%A3o%20-%20Volume%202.pdf" target="_blank">baixe aqui</a>.</li>
             <li>Manfredo do Carmo, <i>Differential Geometry of Curves and Surfaces</i>, <a href="http://home.ustc.edu.cn/~huangty0407/DGNotes/Do%20Carmo%20-%20Differential%20Geometry%20of%20Curves%20and%20Surfaces.pdf" target="_blank">baixe aqui</a>.</li>
-            <li>Manfredo do Carmo, <i>Differential Forms and Applications</i>.</li>
+            <li><s>Manfredo do Carmo, <i>Differential Forms and Applications</i></s>.</li>
         </ul>
         
         <b>Avaliação:</b> 
@@ -155,7 +155,7 @@
                 <tr>
                     <th></th>
                     <td>11/03 <span class="title">Integral de linha</span>, Topologia das curvas<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Geometry</i> §1]</td>
+                        &ensp;&emsp;&emsp;[do Carmo §1]</td>
                     <td>13/03 Aula prática</td>
                 </tr>
                 <tr>
@@ -185,62 +185,55 @@
                 <tr>
                     <th></th>
                     <td class="filled">15/04 (Avaliação 1)</td>
-                    <td>17/04 <span class="title">Formas diferenciais</span>, Definição<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Forms</i> §1]</td>
+                    <td>17/04 <span class="title">Correção da avaliação</span></td>
                 </tr>
                 <tr>
                     <th></th>
-                    <td>22/04 Aula prática</td>
-                    <td>24/04 <span class="title">Formas diferenciais</span>, 1-formas<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Forms</i> §2]</td>
+                    <td>22/04 <span class="title">Análise nD</span>, Mudança de variáveis<br>
+                        &ensp;&emsp;&emsp;[Stewart §15.10]</td>
+                    <td>24/04 Aula prática</td>
                 </tr>
                 <tr>
                     <th></th>
-                    <td>29/04 Aula prática</td>
+                    <td>29/04 <span class="title">Análise nD</span>, Teorema da função inversa<br>
+                        &ensp;&emsp;&emsp;[do Carmo §2.B (apêndice)]</td>
                     <td class="crossed">01/05 (Dia do trabalho)</td>
                 </tr>
 
                 <tr>
                     <th>Maio</th>
-                    <td>06/05 <span class="title">Superfícies</span>, Teorema da função inversa<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Geometry</i> §2.2]</td>
+                    <td>06/05 <span class="title">Superfícies</span>, Parametrizações<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.6], [do Carmo §2.2]</td>
                     <td>08/05 Aula prática</td>
                 </tr>
                 <tr>
                     <th></th>
                     <td>13/05 <span class="title">Superfícies</span>, Plano tangente<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Geometry</i> §2.4]</td>
+                        &ensp;&emsp;&emsp;[Stewart §16.6], [do Carmo §2.4]</td>
                     <td>15/05 Aula prática</td>
                 </tr>
                 <tr>
                     <th></th>
-                    <td>20/05 <span class="title">Superfícies</span> simplesmente conectadas</td>
+                    <td>20/05  <span class="title">Superfícies</span>, Área<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.6], [do Carmo §§2.3, 2.5, 2.8]</td>
                     <td>22/05 Aula prática</td>
                 </tr>
                 <tr>
                     <th></th>
-                    <td>27/05 <span class="title">Integral de superfície</span>, Lembrete de integração<br>
-                        &ensp;&emsp;&emsp;[Stewart §15]</td>
+                    <td> 27/05 <span class="title">Integral de superfície</span> de campo vetorial<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.7]</td>
                     <td>29/05 Aula prática</td>
                 </tr>
-
                 <tr>
                     <th>Junho</th>
-                    <td>19/05 <span class="title">Integral de superfície</span>, Integração das 2-formas<br>
-                        &ensp;&emsp;&emsp;[Stewart §16.7]<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Forms</i> §4.1]</td>
-                    <td>21/05 Aula prática</td>
-                </tr>
-                <tr>
-                    <th></th>
                     <td>03/06 <span class="title">Integral de superfície</span>, Teorema de Stokes<br>
-                        &ensp;&emsp;&emsp;[Stewart §16.8]<br>
-                        &ensp;&emsp;&emsp;[do Carmo <i>Differential Forms</i> §4.2]</td>
-                    <td>04/06 Aula prática</td>
+                        &ensp;&emsp;&emsp;[Stewart §16.8]</td>
+                    <td>05/06 Aula prática</td>
                 </tr>
                 <tr>
                     <th></th>
-                    <td>10/06 <span class="title">Integral de superfície</span>, Aplicações </td>
+                    <td>10/06 <span class="title">Integral de superfície</span>, Teorema de Gauss<br>
+                        &ensp;&emsp;&emsp;[Stewart §16.9]</td>
                     <td>12/06 Aula prática</td>
                 </tr>
                 <tr>
