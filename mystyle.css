@@ -94,7 +94,7 @@ h3 {
 /* Talks */
 
 .cell_talks_date {
-  width: 85px;
+  width: 95px;
   height: 25px;
   margin: 0 0 0 0;
   text-align: right;
@@ -108,7 +108,7 @@ h3 {
 }
 
 .cell_talks_text {
-  width: 715px;
+  width: 705px;
   height: 25px;
   margin: 0 0 0 0;
   text-align: left;
