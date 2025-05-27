@@ -34,22 +34,22 @@ h3 {
 .table_main {
   width: 920px;
   margin-left: 20px;
-  margin-right:  20px;
+  margin-right: 20px;
   border-spacing: 0px 0px;
-  table-layout:fixed;
+  table-layout: fixed;
 }
 
 .table_talks {
   width: 920px;
   margin-left: 20px;
-  margin-right:  20px;
+  margin-right: 20px;
   border-spacing: 0px 0px;
-  table-layout:fixed;
+  table-layout: fixed;
 }
 
 .table_links {
   max-width: 180px;
-  border-spacing: 12px 0; 
+  border-spacing: 12px 0;
 }
 
 .table_list {
@@ -87,14 +87,14 @@ h3 {
 
 .icon_research_meta {
   display: block;
-  max-width:45px;
-  max-height:40px;
+  max-width: 45px;
+  max-height: 40px;
 }
 
 /* Talks */
 
 .cell_talks_date {
-  width: 100px;
+  width: 85px;
   height: 25px;
   margin: 0 0 0 0;
   text-align: right;
@@ -108,28 +108,28 @@ h3 {
 }
 
 .cell_talks_text {
-  width: 700px; 
+  width: 715px;
   height: 25px;
   margin: 0 0 0 0;
   text-align: left;
 }
 
 .icon_talks {
-  max-width:30px;
-  max-height:25px;
+  max-width: 30px;
+  max-height: 25px;
   padding: 0px 5px;
 }
 
 /* Links to scholar */
 
 .table_scholar {
-  margin:auto;
+  margin: auto;
   border-spacing: 25px 0px;
 }
 
 .icon_menu {
-  max-width:65px;
-  max-height:35px;
+  max-width: 65px;
+  max-height: 35px;
   width: auto;
   height: auto;
   text-align: center;
@@ -138,10 +138,10 @@ h3 {
 /* Navigation menu */
 
 .button {
-  background-color: #F0F0F0; 
-  border: black; 
+  background-color: #F0F0F0;
+  border: black;
   border-radius: 10px;
-  color: black; 
+  color: black;
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
