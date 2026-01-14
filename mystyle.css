@@ -9,12 +9,14 @@
   /* width of lists in each section */
   --threshold-media: 700px;
   /* threshold at which media queries apply (check that in CSS queries) */
+  --padding: 12px;
 }
 
 .content {
   max-width: var(--full-width);
   margin: 0 auto;
-  padding: 0 clamp(12px, 4vw, 24px);
+  /* padding: 0 clamp(12px, 4vw, 24px); */
+  padding: 0 var(--padding);
 }
 
 a {
@@ -26,6 +28,10 @@ a {
 a:hover {
   text-decoration: underline;
   /* underline when hovering */
+}
+
+h1 {
+  margin-top: 2px;
 }
 
 h2 {
@@ -43,7 +49,7 @@ h2 {
 }
 
 h3 {
-  width: var(--offset-width);
+  width: auto;
   margin: 1em auto;
   clear: both;
   font-size: 1.025rem;
@@ -53,12 +59,6 @@ h3 {
   background-color: #45c0f52a;
   padding: 2px 0px 2px 1em;
   border-width: 0px 0px 0px 0px;
-}
-
-@media (max-width: 700px) {
-  h3 {
-    width: auto;
-  }
 }
 
 /* Buttons */
@@ -77,8 +77,6 @@ h3 {
 .button-nav {
   padding: 12px 16px;
   font-size: 16px;
-  height: 50px;
-  width: 140px;
 }
 
 .button-showmore {
@@ -102,26 +100,28 @@ h3 {
 /* Introduction -------------------------------------- */
 
 .intro {
-  max-width: 700px;
+  width: min(700px, 100%);
   margin: 0 auto;
-  text-align: left;
 }
 
 /* Title */
 
 .title-table {
-  width: 100%;
+  width: min(calc(700px - 5*var(--padding)), 100%);
 }
 
 .title-table-text {
-  width: 50%;
   text-align: center;
+  vertical-align: top;
+  border: none;
+  padding: 0;
 }
 
+
 .title-table-picture {
-  width: 50%;
-  text-align: right;
+  padding: 0;
 }
+
 
 .title-picture {
   max-width: 100%;
@@ -130,10 +130,6 @@ h3 {
 }
 
 @media (max-width: 700px) {
-  .title-table-text {
-    width: 100%;
-  }
-
   .title-picture {
     display: none;
   }
@@ -142,7 +138,7 @@ h3 {
 /* Short CV */
 
 .shortcv-table {
-  width: 100%;
+  max-width: 100%;
   border-collapse: separate;
   border-spacing: 0 0px;
   margin: 0 auto 10px;
@@ -150,7 +146,7 @@ h3 {
 
 .shortcv-table-date {
   white-space: nowrap;
-  padding-right: 1px;
+  padding-right: 15px;
   vertical-align: top;
 }
 
@@ -166,40 +162,37 @@ h3 {
   .shortcv-table {
     max-width: 355px;
   }
-
-  .shortcv-p-text {
-    text-align: center;
-  }
 }
 
 /* Navigation menu */
 
-.navigation-table {
-  margin: 0 auto;
-  border-spacing: 0;
+.site-nav {
+  display: flex;
+  gap: 12px;
+  flex-wrap: nowrap;
 }
 
-table.colright td:nth-child(1) {
-  text-align: right;
+.site-nav>a.button-nav {
+  flex: 1 1 0;
+  min-width: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  height: 50px;
+  width: auto;
 }
 
 @media (max-width: 700px) {
-  .navigation-table tr {
-    display: flex;
+  .site-nav {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+    /* allow wrap */
   }
 
-  .navigation-table td {
-    display: block;
-    padding: 0;
-  }
-
-  .navigation-table .button {
-    width: 140px;
-    height: auto;
-    padding: 10px 0;
+  .site-nav>a.button-nav {
+    flex: 1 1 140px;
   }
 }
 
