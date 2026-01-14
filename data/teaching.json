@@ -1,0 +1,89 @@
+[
+    {
+        "dateDisplay": "2024",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "title": "Cálculo Vetorial: Integrais múltiplas, de linha e de superfície",
+        "details": "Undergraduate course (2nd year), in Portuguese",
+        "links": [
+            {
+                "kind": "course page",
+                "href": "EMApCalculoVetorial.html"
+            },
+            {
+                "kind": "notes",
+                "href": "files/EMApCalculoVetorial/CalculoVetorial.pdf"
+            }
+        ]
+    },
+    {
+        "dateDisplay": "2023",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "title": "General and Combinatorial Topology",
+        "details": "Undergraduate course (3rd year), in English",
+        "links": [
+            {
+                "kind": "course page",
+                "href": "EMApTopology.html"
+            },
+            {
+                "kind": "notes",
+                "href": "files/EMApTopology/SummerCourseTopology.pdf"
+            }
+        ]
+    },
+    {
+        "dateDisplay": "2021",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "title": "Topological Data Analysis with Persistent Homology",
+        "details": "Undergraduate course (3rd year), in English",
+        "links": [
+            {
+                "kind": "course page",
+                "href": "EMAp.html"
+            },
+            {
+                "kind": "notes",
+                "href": "files/EMAp/SummerCourseTDA.pdf"
+            },
+            {
+                "kind": "videos",
+                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklB221BEq6zwb_FX5bIr7dvx"
+            }
+        ]
+    },
+    {
+        "dateDisplay": "2017–2020",
+        "venue": "Université Paris-Saclay",
+        "venueUrl": "https://www.universite-paris-saclay.fr/en",
+        "code": "M331",
+        "title": "TP Inférence statistique",
+        "details": "Undergraduate course (L3 MINT), in French",
+        "links": []
+    },
+    {
+        "dateDisplay": "2017–2020",
+        "venue": "Université Paris-Saclay",
+        "venueUrl": "https://www.universite-paris-saclay.fr/en",
+        "code": "M326",
+        "title": "TD Projet modélisation et calcul scientifique",
+        "details": "Undergraduate course (L3 MINT), in French",
+        "links": []
+    },
+    {
+        "dateDisplay": "2017–2019",
+        "venue": "Université Paris-Saclay",
+        "venueUrl": "https://www.universite-paris-saclay.fr/en",
+        "code": "M257",
+        "title": "TD Equations différentielles ordinaires",
+        "details": "Undergraduate course (L2 Biologie-Chimie), in French",
+        "links": [
+            {
+                "kind": "course page",
+                "href": "M257.html"
+            }
+        ]
+    }
+]

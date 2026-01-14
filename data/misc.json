@@ -1,0 +1,26 @@
+[
+    {
+        "image": "img/icon_MeJ.jpg",
+        "imageAlt": "MATh.en.JEANS",
+        "imageHref": "MEJ.html",
+        "textHtml": "I used to conduct the <b>MATh.en.JEANS</b> workshop in Collège Alain Fournier (Orsay). It is an introduction to research for middle school students, resulting in a scientific-like article.",
+        "links": [
+            {
+                "kind": "workshop page",
+                "href": "MEJ.html"
+            }
+        ]
+    },
+    {
+        "image": "img/icon_introTDA.jpg",
+        "imageAlt": "Introduction à la TDA",
+        "imageHref": "files/Tinarrage_IntroTDA.pdf",
+        "textHtml": "A gentle introduction to persistent homology in French.",
+        "links": [
+            {
+                "kind": "PDF (local)",
+                "href": "files/Tinarrage_IntroTDA.pdf"
+            }
+        ]
+    }
+]

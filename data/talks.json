@@ -1,0 +1,748 @@
+[
+    {
+        "section": "invited",
+        "date": "2025-12-08",
+        "dateDisplay": "8 Dec 2025",
+        "venue": "Université de Nîmes",
+        "venueUrl": null,
+        "seminar": "Séminaire MIPA",
+        "seminarUrl": "https://mipa.unimes.fr/",
+        "title": "Homologie persistante et application à la segmentation d’images médicales",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_MIPA_2025.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2025-11-11",
+        "dateDisplay": "11 Nov 2025",
+        "venue": "Imperial College",
+        "venueUrl": null,
+        "seminar": "ErlangenAI Hub",
+        "seminarUrl": "https://www.ox.ac.uk/event/erlangen-ai-hub-mathematical-foundations-intelligence-conference",
+        "title": "Linear orbits of compact Lie groups and machine learning",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_Imperial_2025.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2025-11-06",
+        "dateDisplay": "6 Nov 2025",
+        "venue": "City St George's",
+        "venueUrl": null,
+        "seminar": "London-Oxford-Paris TDA Seminar",
+        "seminarUrl": "https://sites.google.com/view/london-oxford-paris-seminar/",
+        "title": "Simplicial approximation, Delaunay triangulations, and the list homomorphism problem",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_LOPTDASeminar_2025.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2025-06-11",
+        "dateDisplay": "11 June 2025",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "AATRN Seminar",
+        "seminarUrl": "https://www.aatrn.net/seminar",
+        "title": "Detection of representation orbits of compact Lie groups from point clouds",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_AATRN2025.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=XnXcgRlafZw"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2025-02-14",
+        "dateDisplay": "14 Feb 2025",
+        "venue": "ESI",
+        "venueUrl": "https://www.esi.ac.at/",
+        "seminar": "Infinite-dimensional Geometry Conference",
+        "seminarUrl": "https://www.esi.ac.at/events/e550/",
+        "title": "Train-Free Segmentation in MRI with Cubical PH",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_ESI2025_Segmentation.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-10-17",
+        "dateDisplay": "17 Oct 2024",
+        "venue": "UFF",
+        "venueUrl": "https://www.uff.br/setor/departamento-de-analise/",
+        "seminar": "Seminário de análise",
+        "seminarUrl": null,
+        "title": "LieDetect: Detecção de órbitas de representações de grupos de Lie",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_UFF2024.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=AbpG5XuFb7c"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-10-04",
+        "dateDisplay": "4 Oct 2024",
+        "venue": "UFRJ",
+        "venueUrl": "https://ufrj.br/en/",
+        "seminar": "Sextas Matemáticas",
+        "seminarUrl": "https://dma.im.ufrj.br/",
+        "title": "LieDetect: Detecção de órbitas de representações de grupos de Lie",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_UFRJ2024.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=_HdBDMfJ5yU"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-07-31",
+        "dateDisplay": "31 July 2024",
+        "venue": "UFBA",
+        "venueUrl": "https://ufba.br/",
+        "seminar": "XXIII Encontro Brasileiro de Topologia",
+        "seminarUrl": "https://xxiiiebt.ime.ufba.br/",
+        "title": "Classifying spaces in TDA",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EBT2024.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-05-28",
+        "dateDisplay": "28 May 2024",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Seminário PMA",
+        "seminarUrl": "https://fsobral.github.io/courses/2024/seminarios-pma-2024.html",
+        "title": "LieDetect",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_PMA2024.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-04-25",
+        "dateDisplay": "25 April 2024",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Seminário de Matemática ",
+        "seminarUrl": "https://emap.fgv.br/eventos/introducao-triangulacao-de-variedades-e-aproximacao-simplicial-na-pratica",
+        "title": "Simplicial approximation in practice",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EMAp2024.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-03-08",
+        "dateDisplay": "8 Mar 2024",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Brazilian Workshop on Continuous Optimization",
+        "seminarUrl": "https://eventos.fgv.br/en/brazopt2024",
+        "title": "LieDetect",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_BrazOpt2024_LieDetect.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2024-01-31",
+        "dateDisplay": "31 Jan 2024",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Datashape Seminar",
+        "seminarUrl": "https://team.inria.fr/datashape/seminars/",
+        "title": "LieDetect",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_Datashape2024_LieDetect.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://bbb2.imo.universite-paris-saclay.fr/playback/presentation/2.3/4d92ce5fca02f144429b20fd491d9b9ef7a5c31b-1706693242588"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2023-01-19",
+        "dateDisplay": "19 Jan 2023",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Workshop On Legal Digital Intelligence",
+        "seminarUrl": "https://emap.fgv.br/en/news/workshop-legal-digital-intelligence",
+        "title": "TDA and Súmulas Vinculantes",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_LDA2023.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2022-11-21",
+        "dateDisplay": "21 Nov 2022",
+        "venue": "USP São Carlos",
+        "venueUrl": "https://saocarlos.usp.br/",
+        "seminar": "Seminário do ICMC",
+        "seminarUrl": "https://www.icmc.usp.br/",
+        "title": "TDA para escolha de resolução temporal na visualização de grafos",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_ICMCI2022.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2022-09-14",
+        "dateDisplay": "14 Sept 2022",
+        "venue": "USACH",
+        "venueUrl": "https://www.usach.cl/",
+        "seminar": "XI Encontro do CONPEDI",
+        "seminarUrl": "https://conpedi.org.br/#/h/XI_encontro_internacional",
+        "title": "O impacto da SV 26 na diminuição de demanda similar no STF",
+        "links": []
+    },
+    {
+        "section": "invited",
+        "date": "2022-09-13",
+        "dateDisplay": "13 Sept 2022",
+        "venue": "USACH",
+        "venueUrl": "https://www.usach.cl/",
+        "seminar": "XI Encontro do CONPEDI",
+        "seminarUrl": "https://conpedi.org.br/#/h/XI_encontro_internacional",
+        "title": "Progressão de regime em crimes hediondos no STF",
+        "links": []
+    },
+    {
+        "section": "invited",
+        "date": "2022-06-01",
+        "dateDisplay": "June 2022",
+        "venue": "Mathematical Institute, Oxford",
+        "venueUrl": null,
+        "seminar": "ATMCS",
+        "seminarUrl": "https://atmcs.web.ox.ac.uk/home",
+        "title": "Simplicial approximation to CW-complexes in practice",
+        "links": [
+            {
+                "kind": "poster",
+                "href": "files/Poster_ATMCS_2022.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2021-06-08",
+        "dateDisplay": "8 June 2021",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "SoCG Minisymposium Comp. Top.",
+        "seminarUrl": "https://cse.buffalo.edu/socg21/",
+        "title": "Simplicial approximation to CW-complexes in practice",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SoCG2021.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://youtu.be/PaKkzcMZC70"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2020-12-01",
+        "dateDisplay": "Dec 2020",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "AATRN Seminar",
+        "seminarUrl": "https://www.aatrn.net/seminar",
+        "title": "Persistent Stiefel-Whitney classes",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_AATRN2020.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=xnQdGRvWenw"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2020-11-01",
+        "dateDisplay": "Nov 2020",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "EPFL Applied Topology Seminar",
+        "seminarUrl": "https://www.epfl.ch/labs/hessbellwald-lab/seminar/apptopsem2021/",
+        "title": "Persistent Stiefel-Whitney classes",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EPFL2020.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=-AGpfIo8RsA"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2020-10-01",
+        "dateDisplay": "Oct 2020",
+        "venue": "Orsay",
+        "venueUrl": null,
+        "seminar": "LMO Univ. Paris-Sud",
+        "seminarUrl": "https://www.imo.universite-paris-saclay.fr/en/",
+        "title": "PhD Defense: Topological inference from measures and vector bundles",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_Dissertation.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=kHGv8BfeHho"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2020-06-01",
+        "dateDisplay": "June 2020",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "SoCG",
+        "seminarUrl": "https://socg20.inf.ethz.ch/",
+        "title": "Recovering the homology of immersed manifolds",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SoCG2020.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=mXRjvwJJ8m8"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2020-03-01",
+        "dateDisplay": "Mar 2020",
+        "venue": "Inria Saclay",
+        "venueUrl": null,
+        "seminar": "Datashape Seminar",
+        "seminarUrl": "https://team.inria.fr/datashape/seminars/",
+        "title": "Introduction aux classes de Stiefel-Whitney",
+        "links": [
+            {
+                "kind": "notes",
+                "href": "files/Notes_Datashape2020.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2019-10-01",
+        "dateDisplay": "Oct 2019",
+        "venue": "Inria Saclay",
+        "venueUrl": null,
+        "seminar": "Datashape Seminar",
+        "seminarUrl": "https://team.inria.fr/datashape/seminars/",
+        "title": "Recovering the homology of immersed manifolds",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_Datashape2019.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2019-06-01",
+        "dateDisplay": "June 2019",
+        "venue": "EECS, Oregon State University",
+        "venueUrl": "https://eecs.oregonstate.edu/socg19/papers.html",
+        "seminar": "SoCG",
+        "seminarUrl": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2019",
+        "title": "DTM-based filtrations",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SoCG2019.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
+        "date": "2018-06-01",
+        "dateDisplay": "June 2018",
+        "venue": "IST Austria",
+        "venueUrl": null,
+        "seminar": "ATMCS",
+        "seminarUrl": "http://atmcs8.appliedtopology.org/",
+        "title": "DTM-based filtrations",
+        "links": [
+            {
+                "kind": "poster",
+                "href": "files/Poster_ATMCS.pdf"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2024-06-18",
+        "dateDisplay": "18 June 2024",
+        "venue": "UFRJ",
+        "venueUrl": "https://ufrj.br/en/",
+        "seminar": "CCMN",
+        "seminarUrl": "https://www.ccmn.ufrj.br/",
+        "title": "Minicurso TDA II/II: Inferência homológica",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_CCMN2024_II.pdf"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2024-06-11",
+        "dateDisplay": "11 June 2024",
+        "venue": "UFRJ",
+        "venueUrl": "https://ufrj.br/en/",
+        "seminar": "CCMN",
+        "seminarUrl": "https://www.ccmn.ufrj.br/",
+        "title": "Minicurso TDA I/II: Invariantes topológicos",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_CCMN2024_I.pdf"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-10-05",
+        "dateDisplay": "5 Oct 2023",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Dynamical Systems & Applications",
+        "seminarUrl": "https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home",
+        "title": "TDA Minicourse IV/IV: Python tutorial",
+        "links": [
+            {
+                "kind": "code",
+                "href": "files/Tutorial_DSA.zip"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-10-03",
+        "dateDisplay": "3 Oct 2023",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Dynamical Systems & Applications",
+        "seminarUrl": "https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home",
+        "title": "TDA Minicourse III/IV: Persistent homology",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_DSA_III.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=ONJooSU3w1k"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-09-28",
+        "dateDisplay": "28 Sept 2023",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Dynamical Systems & Applications",
+        "seminarUrl": "https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home",
+        "title": "TDA Minicourse II/IV: Homological inference",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_DSA_II.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=Ts_xbpzoX3s"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-09-26",
+        "dateDisplay": "26 Sept 2023",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "Dynamical Systems & Applications",
+        "seminarUrl": "https://sites.google.com/matematica.ufrj.br/internationalschool-dynamicals/home",
+        "title": "TDA Minicourse I/IV: Topological invariants",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_DSA_I.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=Tr2xbhTyRLY"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-01-26",
+        "dateDisplay": "26 Jan 2023",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Summer School on Data Science",
+        "seminarUrl": "https://eventos.fgv.br/summer-school-data-science-2023",
+        "title": "TDA Minicourse III/III: Persistent homology",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SSDS_III.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=fjvXZFGhgrg"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-01-26",
+        "dateDisplay": "26 Jan 2023",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Summer School on Data Science",
+        "seminarUrl": "https://eventos.fgv.br/summer-school-data-science-2023",
+        "title": "TDA Minicourse II/III: Homological inference",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SSDS_II.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=OEC7zzQpCNk"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2023-01-25",
+        "dateDisplay": "25 Jan 2023",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Summer School on Data Science",
+        "seminarUrl": "https://eventos.fgv.br/summer-school-data-science-2023",
+        "title": "TDA Minicourse I/III: From topology to data analysis",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SSDS_I.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=bvDzJF9j8Cc"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2022-11-24",
+        "dateDisplay": "24 Nov 2022",
+        "venue": "USP São Carlos",
+        "venueUrl": "https://saocarlos.usp.br/",
+        "seminar": "Seminário do ICMC",
+        "seminarUrl": "https://www.icmc.usp.br/",
+        "title": "Análise Topológica de Dados e suas aplicações",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_ICMCII2022.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=qsHPO2WrRzY"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2021-06-09",
+        "dateDisplay": "9 June 2021",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "EMINES",
+        "seminarUrl": "https://www.emines-ingenieur.org/",
+        "title": "Analyse Topologique des Données II/II : Homologie persistante",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EMINESII2021.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://youtu.be/v5dKt_39smo"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2021-05-26",
+        "dateDisplay": "26 May 2021",
+        "venue": "Online",
+        "venueUrl": null,
+        "seminar": "EMINES",
+        "seminarUrl": "https://www.emines-ingenieur.org/",
+        "title": "Analyse Topologique des Données I/II : Invariants topologiques",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EMINESI2021.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://youtu.be/GQk-OHNiM7Q"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2021-04-01",
+        "dateDisplay": "April 2021",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Seminário de Matemática ",
+        "seminarUrl": "https://emap.fgv.br/en/events",
+        "title": "Topological inference in TDA II/II: Persistence barcodes",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EMApII2021.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=HfkuIqxhjGY"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2021-04-01",
+        "dateDisplay": "April 2021",
+        "venue": "FGV EMAp",
+        "venueUrl": "https://emap.fgv.br/en",
+        "seminar": "Seminário de Matemática ",
+        "seminarUrl": "https://emap.fgv.br/en/events",
+        "title": "Topological inference in TDA I/II: Topology in datasets",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EMApI2021.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=fqeazsBn3RE"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2020-12-01",
+        "dateDisplay": "Dec 2020",
+        "venue": "UMPA Lyon",
+        "venueUrl": null,
+        "seminar": "Séminaire MACS",
+        "seminarUrl": "https://www.umpa.ens-lyon.fr/seminaires/seminaire-edp-et-modelisation",
+        "title": "Inférence topologique avec l'homologie persistante",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_UMPA2020.pdf"
+            }
+        ]
+    },
+    {
+        "section": "overview",
+        "date": "2020-05-01",
+        "dateDisplay": "May 2020",
+        "venue": "LMO Orsay",
+        "venueUrl": "https://www.imo.universite-paris-saclay.fr/en/",
+        "seminar": "Séminaire informel",
+        "seminarUrl": "https://sites.google.com/view/ngocnhinguyen/s%C3%A9minaire-informel",
+        "title": "Introduction à l'homologie persistante",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_seminaire_informel.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://www.youtube.com/watch?v=uDba3kV3Sf0"
+            }
+        ]
+    }
+]

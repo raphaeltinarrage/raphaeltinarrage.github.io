@@ -1,0 +1,273 @@
+[
+    {
+        "category": "journal",
+        "image": "img/icon_LieDetect.gif",
+        "imageAlt": "LieDetect",
+        "imageHref": "https://doi.org/10.1007/s10208-025-09728-4",
+        "title": "LieDetect: Detection of representation orbits of compact Lie groups from point clouds",
+        "authors": "H. Ennes, R. Tinarrage",
+        "venue": "Foundations of Computational Mathematics (2025)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1007/s10208-025-09728-4"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2309.03086"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/HLovisiEnnes/LieDetect"
+            },
+            {
+                "kind": "talk",
+                "href": "https://www.youtube.com/watch?v=XnXcgRlafZw"
+            }
+        ]
+    },
+    {
+        "category": "journal",
+        "image": "img/icon_BP.png",
+        "imageAlt": "Binding precedents",
+        "imageHref": "https://doi.org/10.1007/s10506-025-09458-6",
+        "title": "Empirical analysis of binding precedent efficiency in Brazilian Supreme Court via case classification",
+        "authors": "R. Tinarrage, H. Ennes, L. Resck, L. Gomes, J. Ponciano, J. Poco",
+        "venue": "Artificial Intelligence and Law (2025)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1007/s10506-025-09458-6"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2407.07004"
+            }
+        ]
+    },
+    {
+        "category": "journal",
+        "image": "img/icon_ZigzagNetVis.png",
+        "imageAlt": "ZigzagNetVis",
+        "imageHref": "https://doi.org/10.1109/TVCG.2025.3528197",
+        "title": "ZigzagNetVis: Suggesting temporal resolutions for graph visualization using zigzag persistence",
+        "authors": "R. Tinarrage, J. Ponciano, C. Linhares, A. Traina, J. Poco",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics <b>31</b>, 1–18 (2025)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1109/TVCG.2025.3528197"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2304.03828"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/ZigzagNetVis"
+            }
+        ]
+    },
+    {
+        "category": "journal",
+        "image": "img/icon_ImmersedManifolds.gif",
+        "imageAlt": "Immersed manifolds",
+        "imageHref": "https://doi.org/10.1007/s00454-022-00409-5",
+        "title": "Recovering the homology of immersed manifolds",
+        "authors": "R. Tinarrage",
+        "venue": "Discrete & Computational Geometry <b>69</b>, 659–744 (2023)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1007/s00454-022-00409-5"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/1912.03033"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/ImmersedManifolds/blob/master/Demo.ipynb"
+            },
+            {
+                "kind": "talk",
+                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklDlIFg1djM5XprlL8Ys0hW4"
+            }
+        ]
+    },
+    {
+        "category": "journal",
+        "image": "img/icon_PSFclasses.png",
+        "imageAlt": "Persistent Stiefel-Whitney classes",
+        "imageHref": "https://doi.org/10.1007/s41468-021-00080-4",
+        "title": "Computing persistent Stiefel-Whitney classes of line bundles",
+        "authors": "R. Tinarrage",
+        "venue": "Journal of Applied and Computational Topology <b>6</b>, 65–125 (2022)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1007/s41468-021-00080-4"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2005.12543"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/PersistentCharacteristicClasses/blob/master/Demo.ipynb"
+            },
+            {
+                "kind": "talk",
+                "href": "https://www.youtube.com/watch?v=xnQdGRvWenw"
+            }
+        ]
+    },
+    {
+        "category": "conference",
+        "image": "img/icon_CONPEDI_Quantitativa.png",
+        "imageAlt": "CONPEDI quantitative",
+        "imageHref": "https://site.conpedi.org.br/publicacoes/129by0v5/gg2as8tl/0d71WWx2sWUgr61q.pdf",
+        "title": "O impacto da Súmula Vinculante 26 na diminuição de demanda similar no STF: uma análise quantitativa por modelos de machine learning",
+        "authors": "B. Chagas, C. Damian, R. Tinarrage",
+        "venue": "XI Encontro Internacional do CONPEDI Chile, 82–103 (2022)",
+        "note": "in Portuguese",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://site.conpedi.org.br/publicacoes/129by0v5/gg2as8tl/0d71WWx2sWUgr61q.pdf"
+            },
+            {
+                "kind": "PDF (local)",
+                "href": "files/Paper_CONPEDI_Quantitativa.pdf"
+            }
+        ]
+    },
+    {
+        "category": "conference",
+        "image": "img/icon_CONPEDI_Empirica.png",
+        "imageAlt": "CONPEDI empirical",
+        "imageHref": "https://site.conpedi.org.br/publicacoes/129by0v5/502849so/6o53sVpwaxV5352U.pdf",
+        "title": "Progressão de regime em crimes hediondos no Supremo Tribunal Federal: uma análise empírica pela Súmula Vinculante 26",
+        "authors": "A. Jaccoud, P. de Oliveira, R. Tinarrage",
+        "venue": "XI Encontro Internacional do CONPEDI Chile, 399–418 (2022)",
+        "note": "in Portuguese",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://site.conpedi.org.br/publicacoes/129by0v5/502849so/6o53sVpwaxV5352U.pdf"
+            },
+            {
+                "kind": "PDF (local)",
+                "href": "files/Paper_CONPEDI_Empirica.pdf"
+            }
+        ]
+    },
+    {
+        "category": "conference",
+        "image": "img/icon_DTM-filtrations.gif",
+        "imageAlt": "DTM filtrations",
+        "imageHref": "https://doi.org/10.4230/LIPIcs.SoCG.2019.58",
+        "title": "DTM-based filtrations",
+        "authors": "H. Anai, F. Chazal, M. Glisse, Y. Ike, H. Inakoshi, R. Tinarrage, Y. Umeda",
+        "venue": "Symposium on Computational Geometry (2019); Abel Symposia 15 (2020)",
+        "links": [
+            {
+                "kind": "DOI SoCG",
+                "href": "https://doi.org/10.4230/LIPIcs.SoCG.2019.58"
+            },
+            {
+                "kind": "DOI Abel",
+                "href": "https://doi.org/10.1007/978-3-030-43408-3_2"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/1811.04757"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/DTM-Filtrations/blob/master/Demo.ipynb"
+            },
+            {
+                "kind": "animations",
+                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAOt4dkygG8Zv_-wUvlaz07"
+            }
+        ]
+    },
+    {
+        "category": "preprint",
+        "image": "img/icon_segmentation.png",
+        "imageAlt": "Train-free segmentation",
+        "imageHref": "https://arxiv.org/abs/2401.01160",
+        "title": "Train-Free Segmentation in MRI with Cubical Persistent Homology",
+        "authors": "A. François, R. Tinarrage",
+        "venue": "Preprint (January 2024)",
+        "links": [
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2401.01160"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/antonfrancois/gliomaSegmentation_TDA"
+            },
+            {
+                "kind": "animations",
+                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAxtaMrQB5UCbobxRsiw8sE"
+            }
+        ]
+    },
+    {
+        "category": "preprint",
+        "image": "img/icon_CWcomplexes.gif",
+        "imageAlt": "CW complexes",
+        "imageHref": "https://arxiv.org/abs/2112.07573",
+        "title": "Simplicial approximation to CW complexes in practice",
+        "authors": "R. Tinarrage",
+        "venue": "Preprint (December 2021)",
+        "links": [
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2112.07573"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/SimplicialApproximationCW/blob/main/Demo.ipynb"
+            },
+            {
+                "kind": "talk",
+                "href": "https://www.youtube.com/watch?v=PaKkzcMZC70"
+            }
+        ]
+    },
+    {
+        "category": "phd",
+        "image": "img/icon_thesis.png",
+        "imageAlt": "PhD thesis",
+        "imageHref": "https://theses.hal.science/tel-02970491/",
+        "title": "Topological inference from measures and vector bundles",
+        "authors": "",
+        "venue": "Defended at Laboratoire de Mathématiques d'Orsay (LMO), October 2020",
+        "links": [
+            {
+                "kind": "HAL",
+                "href": "https://theses.hal.science/tel-02970491/"
+            },
+            {
+                "kind": "PDF (local)",
+                "href": "files/Tinarrage_Dissertation.pdf"
+            },
+            {
+                "kind": "slides",
+                "href": "files/Slides_Dissertation.pdf"
+            },
+            {
+                "kind": "reports",
+                "href": "files/Reports_Dissertation.pdf"
+            },
+            {
+                "kind": "video",
+                "href": "https://youtu.be/kHGv8BfeHho"
+            }
+        ]
+    }
+]

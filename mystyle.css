@@ -1,8 +1,31 @@
-/* Main */
+/* Aesthetics -------------------------------------- */
+
+/* Hyperparameters */
+
+:root {
+  --full-width: 960px;
+  /* width of page (before media queries) */
+  --offset-width: 95%;
+  /* width of lists in each section */
+  --threshold-media: 700px;
+  /* threshold at which media queries apply (check that in CSS queries) */
+}
 
 .content {
-  max-width: 960px;
-  margin: auto;
+  max-width: var(--full-width);
+  margin: 0 auto;
+  padding: 0 clamp(12px, 4vw, 24px);
+}
+
+a {
+  color: LinkText;
+  text-decoration: none;
+  /* color links without underline */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* underline when hovering */
 }
 
 h2 {
@@ -12,7 +35,7 @@ h2 {
   color: black;
   text-align: left;
   background-color: #F0F0F0;
-  margin: 2em 0px 1em 0px;
+  margin: 1em 0px 1em 0px;
   padding: 2px 0px 2px 1em;
   border-width: 1px 0px 1px 0px;
   border-color: black;
@@ -20,140 +43,254 @@ h2 {
 }
 
 h3 {
+  width: var(--offset-width);
+  margin: 1em auto;
   clear: both;
-  font-size: medium;
+  font-size: 1.025rem;
   font-weight: bold;
   color: black;
-  text-align: center;
+  text-align: left;
   background-color: #45c0f52a;
-  margin: 0em 0px .5em 0px;
   padding: 2px 0px 2px 1em;
   border-width: 0px 0px 0px 0px;
 }
 
-.table_main {
-  width: 920px;
-  margin-left: 0px;
-  margin-right: 0px;
-  border-spacing: 0px 0px;
-  table-layout: fixed;
+@media (max-width: 700px) {
+  h3 {
+    width: auto;
+  }
 }
 
-.table_talks {
-  width: 920px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-spacing: 0px 0px;
-  table-layout: fixed;
+/* Buttons */
+
+.button-base {
+  background-color: #F0F0F0;
+  border: 0px solid black;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.table_links {
-  max-width: 180px;
-  border-spacing: 12px 0;
+.button-base:hover {
+  background-color: #CCCCFF;
 }
 
-.table_list {
-  margin-left: 20px;
-  border-spacing: 10px 5px;
+.button-nav {
+  padding: 12px 16px;
+  font-size: 16px;
+  height: 50px;
+  width: 140px;
 }
 
-/* Research */
-
-.cell_research_img {
-  width: 200px;
-  margin: 0 0 0 0;
-}
-
-.cell_research_text {
-  width: 590px;
-  height: 100px;
-  text-align: justify;
-  margin: 0 0 0 0;
-}
-
-.cell_research_links {
-  width: 170px;
-  margin: 0 0 0 0;
-}
-
-.icon_research_img {
+.button-showmore {
   display: block;
-  max-width: 180px;
-  max-height: 100px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .9rem;
+  margin-bottom: .0rem;
+  padding: .3rem .9rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-.icon_research_meta {
-  display: block;
-  max-width: 45px;
-  max-height: 40px;
+@media (max-width: 700px) {
+  .button-showmore {
+    width: var(--offset-width);
+  }
 }
 
-/* Talks */
+/* Introduction -------------------------------------- */
 
-.cell_talks_date {
-  width: 95px;
-  height: 25px;
-  margin: 0 0 0 0;
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Title */
+
+.title-table {
+  width: 100%;
+}
+
+.title-table-text {
+  width: 50%;
+  text-align: center;
+}
+
+.title-table-picture {
+  width: 50%;
   text-align: right;
 }
 
-.cell_talks_links {
-  width: 80px;
-  height: 25px;
-  margin: 0 0 0 0;
-  text-align: left;
-}
-
-.cell_talks_text {
-  width: 705px;
-  height: 25px;
-  margin: 0 0 0 0;
-  text-align: left;
-}
-
-.icon_talks {
-  max-width: 30px;
-  max-height: 25px;
-  padding: 0px 5px;
-}
-
-/* Links to scholar */
-
-.table_scholar {
-  margin: auto;
-  border-spacing: 25px 0px;
-}
-
-.icon_menu {
-  max-width: 65px;
-  max-height: 35px;
-  width: auto;
+.title-picture {
+  max-width: 100%;
   height: auto;
-  text-align: center;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .title-table-text {
+    width: 100%;
+  }
+
+  .title-picture {
+    display: none;
+  }
+}
+
+/* Short CV */
+
+.shortcv-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0px;
+  margin: 0 auto 10px;
+}
+
+.shortcv-table-date {
+  white-space: nowrap;
+  padding-right: 1px;
+  vertical-align: top;
+}
+
+.shortcv-table-text {
+  vertical-align: top;
+}
+
+@media (max-width: 700px) {
+  .shortcv-show-desktop {
+    display: none;
+  }
+
+  .shortcv-table {
+    max-width: 355px;
+  }
+
+  .shortcv-p-text {
+    text-align: center;
+  }
 }
 
 /* Navigation menu */
 
-.button {
-  background-color: #F0F0F0;
-  border: black;
-  border-radius: 10px;
-  color: black;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-  height: 50px;
-  width: 116px;
-}
-
-.button:hover {
-  background-color: #CCCCFF;
+.navigation-table {
+  margin: 0 auto;
+  border-spacing: 0;
 }
 
 table.colright td:nth-child(1) {
   text-align: right;
+}
+
+@media (max-width: 700px) {
+  .navigation-table tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .navigation-table td {
+    display: block;
+    padding: 0;
+  }
+
+  .navigation-table .button {
+    width: 140px;
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+/* Sections -------------------------------------- */
+
+/* Lists  */
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: var(--offset-width);
+}
+
+.list-row {
+  display: grid;
+  grid-template-columns: 8rem 1fr fit-content(11rem);
+  gap: 1rem;
+  padding: .55rem 0;
+  align-items: start;
+}
+
+.list-left {
+  white-space: nowrap;
+}
+
+.list-middle {
+  line-height: 1.25;
+}
+
+.list-right {
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .list {
+    width: 100%;
+  }
+
+  .list-row {
+    grid-template-columns: 1fr;
+    gap: .25rem;
+  }
+
+  .list-right {
+    white-space: normal;
+    text-align: left;
+  }
+}
+
+/* Research */
+
+#research .list-left {
+  width: 100%;
+  height: auto;
+  border-radius: .4rem;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  #research .list-left {
+    display: none;
+  }
+}
+
+/* Teaching */
+
+.teaching-details {
+  margin-top: .15rem;
+}
+
+/* Mentoring */
+
+.mentoring-people {
+  margin-top: .15rem;
+}
+
+/* Talks  */
+
+/* Miscellaneous */
+
+#misc .list-left {
+  width: 100%;
+  height: auto;
+  border-radius: .4rem;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  #misc .list-left {
+    display: none;
+  }
 }
