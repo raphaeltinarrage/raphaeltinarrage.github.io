@@ -50,7 +50,7 @@ h2 {
 
 h3 {
   width: auto;
-  margin: 1em auto;
+  margin: 1em auto 0.5em auto;
   clear: both;
   font-size: 1.025rem;
   font-weight: bold;
@@ -85,7 +85,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   margin-top: .9rem;
-  margin-bottom: .0rem;
+  margin-bottom: 1.5rem;
   padding: .3rem .9rem;
   font-weight: 600;
   text-align: center;
