@@ -124,6 +124,29 @@
     },
     {
         "category": "conference",
+        "image": "img/icon_CWcomplexes.gif",
+        "imageAlt": "CW complexes",
+        "imageHref": "https://arxiv.org/abs/2112.07573",
+        "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
+        "authors": "R. Tinarrage",
+        "venue": "To appear in Symposium on Computational Geometry (2026)",
+        "links": [
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2112.07573"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/raphaeltinarrage/cw2simp"
+            },
+            {
+                "kind": "talk",
+                "href": "https://www.youtube.com/watch?v=PaKkzcMZC70"
+            }
+        ]
+    },
+    {
+        "category": "conference",
         "image": "img/icon_CONPEDI_Quantitativa.png",
         "imageAlt": "CONPEDI quantitative",
         "imageHref": "https://site.conpedi.org.br/publicacoes/129by0v5/gg2as8tl/0d71WWx2sWUgr61q.pdf",
@@ -213,29 +236,6 @@
             {
                 "kind": "animations",
                 "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAxtaMrQB5UCbobxRsiw8sE"
-            }
-        ]
-    },
-    {
-        "category": "preprint",
-        "image": "img/icon_CWcomplexes.gif",
-        "imageAlt": "CW complexes",
-        "imageHref": "https://arxiv.org/abs/2112.07573",
-        "title": "Simplicial approximation to CW complexes in practice",
-        "authors": "R. Tinarrage",
-        "venue": "Preprint (December 2021)",
-        "links": [
-            {
-                "kind": "arXiv",
-                "href": "https://arxiv.org/abs/2112.07573"
-            },
-            {
-                "kind": "code",
-                "href": "https://github.com/raphaeltinarrage/SimplicialApproximationCW/blob/main/Demo.ipynb"
-            },
-            {
-                "kind": "talk",
-                "href": "https://www.youtube.com/watch?v=PaKkzcMZC70"
             }
         ]
     },
