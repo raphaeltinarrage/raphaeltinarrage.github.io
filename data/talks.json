@@ -8,7 +8,12 @@
         "seminar": "EuroCG 2026",
         "seminarUrl": "https://eurocg26.fernuni-hagen.de/index.html",
         "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
-        "links": []
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_EuroCG_2026.pdf"
+            }
+        ]
     },
     {
         "section": "invited",
