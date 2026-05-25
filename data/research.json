@@ -1,6 +1,33 @@
 [
     {
         "category": "journal",
+        "image": "img/icon_segmentation.png",
+        "imageAlt": "Train-free segmentation",
+        "imageHref": "https://doi.org/10.1007/s10851-026-01300-1",
+        "title": "Train-Free Segmentation in MRI with Cubical Persistent Homology",
+        "authors": "A. François, R. Tinarrage",
+        "venue": "Journal of Mathematical Imaging and Vision <b>68</b>, 20 (2026)",
+        "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.1007/s10851-026-01300-1"
+            },
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2401.01160"
+            },
+            {
+                "kind": "code",
+                "href": "https://github.com/antonfrancois/gliomaSegmentation_TDA"
+            },
+            {
+                "kind": "animations",
+                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAxtaMrQB5UCbobxRsiw8sE"
+            }
+        ]
+    },
+    {
+        "category": "journal",
         "image": "img/icon_LieDetect.gif",
         "imageAlt": "LieDetect",
         "imageHref": "https://doi.org/10.1007/s10208-025-09728-4",
@@ -213,29 +240,6 @@
             {
                 "kind": "animations",
                 "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAOt4dkygG8Zv_-wUvlaz07"
-            }
-        ]
-    },
-    {
-        "category": "preprint",
-        "image": "img/icon_segmentation.png",
-        "imageAlt": "Train-free segmentation",
-        "imageHref": "https://arxiv.org/abs/2401.01160",
-        "title": "Train-Free Segmentation in MRI with Cubical Persistent Homology",
-        "authors": "A. François, R. Tinarrage",
-        "venue": "Preprint (January 2024)",
-        "links": [
-            {
-                "kind": "arXiv",
-                "href": "https://arxiv.org/abs/2401.01160"
-            },
-            {
-                "kind": "code",
-                "href": "https://github.com/antonfrancois/gliomaSegmentation_TDA"
-            },
-            {
-                "kind": "animations",
-                "href": "https://www.youtube.com/playlist?list=PL_FkltNTtklAxtaMrQB5UCbobxRsiw8sE"
             }
         ]
     },
