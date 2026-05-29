@@ -28,7 +28,7 @@
             const title = item.title ?? "";
 
             // Venue — code: <b>title</b>
-            const header = v ? `${v} \u2014 ${codePart}${title}` : `${codePart}${titleBold}`;
+            const header = v ? `${v} \u2014 ${codePart}${title}` : `${codePart}${title}`;
 
             const detailsLine = item.details ? `<div class="teaching-details">${item.details}</div>` : "";
 

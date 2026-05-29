@@ -79,7 +79,7 @@
         "imageHref": "https://doi.org/10.1109/TVCG.2025.3528197",
         "title": "ZigzagNetVis: Suggesting temporal resolutions for graph visualization using zigzag persistence",
         "authors": "R. Tinarrage, J. Ponciano, C. Linhares, A. Traina, J. Poco",
-        "venue": "IEEE Transactions on Visualization and Computer Graphics <b>31</b>, 1–18 (2025)",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics <b>31</b>(10), 6852–6869 (2025)",
         "links": [
             {
                 "kind": "DOI",
@@ -153,11 +153,15 @@
         "category": "conference",
         "image": "img/icon_CWcomplexes.gif",
         "imageAlt": "CW complexes",
-        "imageHref": "https://arxiv.org/abs/2112.07573",
+        "imageHref": "https://doi.org/10.4230/LIPIcs.SoCG.2026.93",
         "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
         "authors": "R. Tinarrage",
-        "venue": "To appear in Symposium on Computational Geometry (2026)",
+        "venue": "Symposium on Computational Geometry (SoCG 2026)",
         "links": [
+            {
+                "kind": "DOI",
+                "href": "https://doi.org/10.4230/LIPIcs.SoCG.2026.93"
+            },
             {
                 "kind": "arXiv",
                 "href": "https://arxiv.org/abs/2112.07573"
@@ -219,7 +223,7 @@
         "imageHref": "https://doi.org/10.4230/LIPIcs.SoCG.2019.58",
         "title": "DTM-based filtrations",
         "authors": "H. Anai, F. Chazal, M. Glisse, Y. Ike, H. Inakoshi, R. Tinarrage, Y. Umeda",
-        "venue": "Symposium on Computational Geometry (2019); Abel Symposia 15 (2020)",
+        "venue": "Symposium on Computational Geometry (SoCG 2019); Abel Symposia 15 (2020)",
         "links": [
             {
                 "kind": "DOI SoCG",

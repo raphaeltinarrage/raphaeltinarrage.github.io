@@ -1,6 +1,44 @@
 [
     {
         "section": "invited",
+        "date": "2026-06-05",
+        "dateDisplay": "5 Jun 2026, 9:00",
+        "venue": "Rutgers University",
+        "venueUrl": "",
+        "seminar": "SoCG 2026 (Session 7A)",
+        "seminarUrl": "https://cgweek26.computational-geometry.org/program/friday/",
+        "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
+        "links": []
+    },
+    {
+        "section": "invited",
+        "date": "2026-06-04",
+        "dateDisplay": "4 Jun 2026, 17:20",
+        "venue": "Rutgers University",
+        "venueUrl": "",
+        "seminar": "SoCG 2026 (Workshop on Triangulations)",
+        "seminarUrl": "https://cgweek26.computational-geometry.org/program/thursday/",
+        "title": "Sharp bounds on simplex shrinking under iterated Delaunay refinement",
+        "links": []
+    },
+    {
+        "section": "invited",
+        "date": "2026-05-13",
+        "dateDisplay": "13 May 2026",
+        "venue": "Masaryk University",
+        "venueUrl": "https://www.muni.cz/en",
+        "seminar": "Algebraic Topology Seminar",
+        "seminarUrl": "",
+        "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_Masaryk_2026.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
         "date": "2026-03-25",
         "dateDisplay": "25 Mar 2026",
         "venue": "FernUniversität",
@@ -66,7 +104,7 @@
     {
         "section": "invited",
         "date": "2025-06-11",
-        "dateDisplay": "11 June 2025",
+        "dateDisplay": "11 Jun 2025",
         "venue": "Online",
         "venueUrl": null,
         "seminar": "AATRN Seminar",
@@ -142,7 +180,7 @@
     {
         "section": "invited",
         "date": "2024-07-31",
-        "dateDisplay": "31 July 2024",
+        "dateDisplay": "31 Jul 2024",
         "venue": "UFBA",
         "venueUrl": "https://ufba.br/",
         "seminar": "XXIII Encontro Brasileiro de Topologia",
@@ -174,10 +212,10 @@
     {
         "section": "invited",
         "date": "2024-04-25",
-        "dateDisplay": "25 April 2024",
+        "dateDisplay": "25 Apr 2024",
         "venue": "FGV EMAp",
         "venueUrl": "https://emap.fgv.br/en",
-        "seminar": "Seminário de Matemática ",
+        "seminar": "Seminário de Matemática",
         "seminarUrl": "https://emap.fgv.br/eventos/introducao-triangulacao-de-variedades-e-aproximacao-simplicial-na-pratica",
         "title": "Simplicial approximation in practice",
         "links": [
@@ -258,7 +296,7 @@
     {
         "section": "invited",
         "date": "2022-09-14",
-        "dateDisplay": "14 Sept 2022",
+        "dateDisplay": "14 Sep 2022",
         "venue": "USACH",
         "venueUrl": "https://www.usach.cl/",
         "seminar": "XI Encontro do CONPEDI",
@@ -269,7 +307,7 @@
     {
         "section": "invited",
         "date": "2022-09-13",
-        "dateDisplay": "13 Sept 2022",
+        "dateDisplay": "13 Sep 2022",
         "venue": "USACH",
         "venueUrl": "https://www.usach.cl/",
         "seminar": "XI Encontro do CONPEDI",
@@ -280,7 +318,7 @@
     {
         "section": "invited",
         "date": "2022-06-01",
-        "dateDisplay": "June 2022",
+        "dateDisplay": "Jun 2022",
         "venue": "Mathematical Institute, Oxford",
         "venueUrl": null,
         "seminar": "ATMCS",
@@ -296,12 +334,12 @@
     {
         "section": "invited",
         "date": "2021-06-08",
-        "dateDisplay": "8 June 2021",
+        "dateDisplay": "8 Jun 2021",
         "venue": "Online",
         "venueUrl": null,
-        "seminar": "SoCG Minisymposium Comp. Top.",
+        "seminar": "SoCG 2020 (Minisymposium on Computational Topology)",
         "seminarUrl": "https://cse.buffalo.edu/socg21/",
-        "title": "Simplicial approximation to CW-complexes in practice",
+        "title": "Simplicial approximation to CW complexes in practice",
         "links": [
             {
                 "kind": "slides",
@@ -376,10 +414,10 @@
     {
         "section": "invited",
         "date": "2020-06-01",
-        "dateDisplay": "June 2020",
+        "dateDisplay": "Jun 2020",
         "venue": "Online",
         "venueUrl": null,
-        "seminar": "SoCG",
+        "seminar": "SoCG 2020 (Young Researchers Forum)",
         "seminarUrl": "https://socg20.inf.ethz.ch/",
         "title": "Recovering the homology of immersed manifolds",
         "links": [
@@ -428,10 +466,10 @@
     {
         "section": "invited",
         "date": "2019-06-01",
-        "dateDisplay": "June 2019",
+        "dateDisplay": "Jun 2019",
         "venue": "EECS, Oregon State University",
         "venueUrl": "https://eecs.oregonstate.edu/socg19/papers.html",
-        "seminar": "SoCG",
+        "seminar": "SoCG 2019",
         "seminarUrl": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2019",
         "title": "DTM-based filtrations",
         "links": [
@@ -444,7 +482,7 @@
     {
         "section": "invited",
         "date": "2018-06-01",
-        "dateDisplay": "June 2018",
+        "dateDisplay": "Jun 2018",
         "venue": "IST Austria",
         "venueUrl": null,
         "seminar": "ATMCS",
@@ -460,7 +498,7 @@
     {
         "section": "overview",
         "date": "2024-06-18",
-        "dateDisplay": "18 June 2024",
+        "dateDisplay": "18 Jun 2024",
         "venue": "UFRJ",
         "venueUrl": "https://ufrj.br/en/",
         "seminar": "CCMN",
@@ -476,7 +514,7 @@
     {
         "section": "overview",
         "date": "2024-06-11",
-        "dateDisplay": "11 June 2024",
+        "dateDisplay": "11 Jun 2024",
         "venue": "UFRJ",
         "venueUrl": "https://ufrj.br/en/",
         "seminar": "CCMN",
@@ -528,7 +566,7 @@
     {
         "section": "overview",
         "date": "2023-09-28",
-        "dateDisplay": "28 Sept 2023",
+        "dateDisplay": "28 Sep 2023",
         "venue": "Online",
         "venueUrl": null,
         "seminar": "Dynamical Systems & Applications",
@@ -548,7 +586,7 @@
     {
         "section": "overview",
         "date": "2023-09-26",
-        "dateDisplay": "26 Sept 2023",
+        "dateDisplay": "26 Sep 2023",
         "venue": "Online",
         "venueUrl": null,
         "seminar": "Dynamical Systems & Applications",
@@ -648,7 +686,7 @@
     {
         "section": "overview",
         "date": "2021-06-09",
-        "dateDisplay": "9 June 2021",
+        "dateDisplay": "9 Jun 2021",
         "venue": "Online",
         "venueUrl": null,
         "seminar": "EMINES",
@@ -688,10 +726,10 @@
     {
         "section": "overview",
         "date": "2021-04-01",
-        "dateDisplay": "April 2021",
+        "dateDisplay": "Apr 2021",
         "venue": "FGV EMAp",
         "venueUrl": "https://emap.fgv.br/en",
-        "seminar": "Seminário de Matemática ",
+        "seminar": "Seminário de Matemática",
         "seminarUrl": "https://emap.fgv.br/en/events",
         "title": "Topological inference in TDA II/II: Persistence barcodes",
         "links": [
@@ -708,10 +746,10 @@
     {
         "section": "overview",
         "date": "2021-04-01",
-        "dateDisplay": "April 2021",
+        "dateDisplay": "Apr 2021",
         "venue": "FGV EMAp",
         "venueUrl": "https://emap.fgv.br/en",
-        "seminar": "Seminário de Matemática ",
+        "seminar": "Seminário de Matemática",
         "seminarUrl": "https://emap.fgv.br/en/events",
         "title": "Topological inference in TDA I/II: Topology in datasets",
         "links": [
