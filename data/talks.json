@@ -8,7 +8,12 @@
         "seminar": "SoCG 2026 (Session 7A)",
         "seminarUrl": "https://cgweek26.computational-geometry.org/program/friday/",
         "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
-        "links": []
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SoCG2026.pdf"
+            }
+        ]
     },
     {
         "section": "invited",
@@ -19,7 +24,12 @@
         "seminar": "SoCG 2026 (Workshop on Triangulations)",
         "seminarUrl": "https://cgweek26.computational-geometry.org/program/thursday/",
         "title": "Sharp bounds on simplex shrinking under iterated Delaunay refinement",
-        "links": []
+        "links": [
+            {
+                "kind": "slides",
+                "href": "files/Slides_SoCG2026_Workshop.pdf"
+            }
+        ]
     },
     {
         "section": "invited",
