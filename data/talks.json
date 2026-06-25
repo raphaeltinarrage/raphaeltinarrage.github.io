@@ -2,10 +2,10 @@
     {
         "section": "invited",
         "date": "2026-06-05",
-        "dateDisplay": "5 Jun 2026, 9:00",
+        "dateDisplay": "5 Jun 2026",
         "venue": "Rutgers University",
         "venueUrl": "",
-        "seminar": "SoCG 2026 (Session 7A)",
+        "seminar": "SoCG 2026",
         "seminarUrl": "https://cgweek26.computational-geometry.org/program/friday/",
         "title": "Simplicial approximation to CW complexes with spherical Delaunay triangulations",
         "links": [
@@ -18,7 +18,7 @@
     {
         "section": "invited",
         "date": "2026-06-04",
-        "dateDisplay": "4 Jun 2026, 17:20",
+        "dateDisplay": "4 Jun 2026",
         "venue": "Rutgers University",
         "venueUrl": "",
         "seminar": "SoCG 2026 (Workshop on Triangulations)",

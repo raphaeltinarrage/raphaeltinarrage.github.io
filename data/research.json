@@ -1,5 +1,20 @@
 [
     {
+        "category": "preprint",
+        "image": "img/icon_delaunay.gif",
+        "imageAlt": "Delaunay refinement",
+        "imageHref": "https://arxiv.org/abs/2606.25854",
+        "title": "Sharp approximate Carathéodory theorem and application  to iterated Delaunay refinement",
+        "authors": "R. Tinarrage",
+        "venue": "",
+        "links": [
+            {
+                "kind": "arXiv",
+                "href": "https://arxiv.org/abs/2606.25854"
+            }
+        ]
+    },
+    {
         "category": "journal",
         "image": "img/icon_segmentation.png",
         "imageAlt": "Train-free segmentation",
