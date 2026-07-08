@@ -1,6 +1,22 @@
 [
     {
         "section": "invited",
+        "date": "2026-06-09",
+        "dateDisplay": "9 Jul 2026",
+        "venue": "Universität Wien",
+        "venueUrl": null,
+        "seminar": "FoCM 2026",
+        "seminarUrl": "https://focm2026.univie.ac.at/?page_id=1630",
+        "title": "Simplicial approximation with Delaunay complexes",
+        "links": [
+            {
+                "kind": "poster",
+                "href": "files/Poster_FoCM_2026.pdf"
+            }
+        ]
+    },
+    {
+        "section": "invited",
         "date": "2026-06-05",
         "dateDisplay": "5 Jun 2026",
         "venue": "Rutgers University",
