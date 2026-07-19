@@ -1,5 +1,17 @@
 [
     {
+        "date": "Summer 2026",
+        "venue": "ISTA",
+        "venueUrl": "https://ista.ac.at/en/home/",
+        "title": "Integral persistent homology of torus knots",
+        "role": "BSc student",
+        "people": [
+            {
+                "name": "Damien Bellon"
+            }
+        ]
+    },
+    {
         "date": "2022–2023",
         "venue": "FGV EMAp",
         "venueUrl": "https://emap.fgv.br/en",
