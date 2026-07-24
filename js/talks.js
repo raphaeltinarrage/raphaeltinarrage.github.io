@@ -117,6 +117,8 @@
     async function init() {
         const invitedUl = $("talksInvited");
         const invitedToggle = $("talksInvitedToggle");
+        const contributedUl = $("talksContributed");
+        const contributedToggle = $("talksContributedToggle");
         const overviewUl = $("talksOverview");
         const overviewToggle = $("talksOverviewToggle");
 
@@ -130,13 +132,16 @@
             all.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 
             renderSection(all.filter(t => t.section === "invited"), invitedUl, invitedToggle);
+            renderSection(all.filter(t => t.section === "contributed"), contributedUl, contributedToggle);
             renderSection(all.filter(t => t.section === "overview"), overviewUl, overviewToggle);
 
         } catch (e) {
             console.error(e);
             invitedUl.innerHTML = `<li>Could not load talks.</li>`;
+            contributedUl.innerHTML = `<li>Could not load talks.</li>`;
             overviewUl.innerHTML = `<li>Could not load talks.</li>`;
             invitedToggle.hidden = true;
+            contributedToggle.hidden = true;
             overviewToggle.hidden = true;
         }
     }

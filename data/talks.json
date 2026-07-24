@@ -1,6 +1,6 @@
 [
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2026-06-09",
         "dateDisplay": "9 Jul 2026",
         "venue": "Universität Wien",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2026-06-05",
         "dateDisplay": "5 Jun 2026",
         "venue": "Rutgers University",
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2026-03-25",
         "dateDisplay": "25 Mar 2026",
         "venue": "FernUniversität",
@@ -148,7 +148,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2025-02-14",
         "dateDisplay": "14 Feb 2025",
         "venue": "ESI",
@@ -204,7 +204,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2024-07-31",
         "dateDisplay": "31 Jul 2024",
         "venue": "UFBA",
@@ -252,7 +252,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2024-03-08",
         "dateDisplay": "8 Mar 2024",
         "venue": "FGV EMAp",
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2022-09-14",
         "dateDisplay": "14 Sep 2022",
         "venue": "USACH",
@@ -331,7 +331,7 @@
         "links": []
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2022-09-13",
         "dateDisplay": "13 Sep 2022",
         "venue": "USACH",
@@ -342,7 +342,7 @@
         "links": []
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2022-06-01",
         "dateDisplay": "Jun 2022",
         "venue": "Mathematical Institute, Oxford",
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2020-10-01",
         "dateDisplay": "Oct 2020",
         "venue": "Orsay",
@@ -490,7 +490,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2019-06-01",
         "dateDisplay": "Jun 2019",
         "venue": "EECS, Oregon State University",
@@ -506,7 +506,7 @@
         ]
     },
     {
-        "section": "invited",
+        "section": "contributed",
         "date": "2018-06-01",
         "dateDisplay": "Jun 2018",
         "venue": "IST Austria",
